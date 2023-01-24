@@ -1,0 +1,24 @@
+Devices: are destination
+Network: are routes where data travels
+
+Ip Address:
+Ip Packet: ip header , ip data| payload(contains other Protocols i.e tcp )
+TCP: Transmission Control Protocol|-> Deal loss in Transmission
+UDP: User Datagram Protocol|-> Deal With Corruptness
+
+The payload part of IP packets supports multiple protocols to make sure that information arrives as expected. Two of these are Transmission Control Protocol (TCP) and User Datagram Protocol (UDP). TCP is used for data that must arrive correctly and in order like text and images. UDP is used for sending data that can tolerate data loss like voice calls or live video streaming.
+
+HTTP
+HTTP: is request and response protocol
+HTTP Methods: GET: retrieve, POST: send, PUT: update, DELETE: remove
+HTTP Headers: 
+HTTP Status CODE: 200, 404 etc 
+Codes:  Informational: 100-99
+        Successful: 200-299
+        Redirection: 300-399
+        Client Server: 400-499
+        Server Error: 500-599
+
+Frame Work: Provide Structure For developers to builds | Handles functionalities | Combination of Libraries
+Libraries: Reusable pieces of code | Specific Functionality
+API: Set functions and procdures| 

@@ -1,0 +1,26 @@
+
+Server: Called Sever Because it Provide a Service
+Webserver: Alot to function-> Web Requests, Storage, Database etc.
+
+A server is a computer that runs applications and services, ranging from websites to instant messaging.
+:: Web servers can handle thousands of requests from clients per second.
+:: A web server can handle security.  
+:: A web server can function as website storage and administration.
+
+Webpage: is a document, display information media, text etc.
+Website: collection of webpages linked together.
+Webpage Rendrong
+HTML, CSS, JS(Control and Action)
+
+Webbrowser: send request to webserver and recieve response,
+A web browser is a software application that you use to browse the world wide web.
+HTTP REQUEST:
+Browser and Server use "http request" to communicate when request is send
+HTTP RESPONSE:
+When browser recieve a response from the server
+
+Request Response Cycle:
+Device -> Request -> Webserver
+Device <- Respoce <- Webserver
+
+Webhosting: Shared, VPS, Dedication, Cloud hosting

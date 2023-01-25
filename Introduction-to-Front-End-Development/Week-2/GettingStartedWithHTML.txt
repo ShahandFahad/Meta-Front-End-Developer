@@ -1,0 +1,17 @@
+HyperText Markup Language: 
+    HyperText: Contains Links to other documents
+    Markup: How the tags and elements within doucment
+
+HTML Document:
+
+Linking Document: anchor tag: <a href=""></a>
+
+Adding Images: <img src="" alt="" /img>
+Tables: <table> <tr><th></th></tr> <tr><td></td></tr> </table>
+Forms: HTTP METHOD: GET and POST
+    radio, checkboxes etc
+    <select></select>
+    <option></option>
+
+DOM: Document Object Model
+Web Accessibility: Accessible for people with disabilities, WAI and ARIA

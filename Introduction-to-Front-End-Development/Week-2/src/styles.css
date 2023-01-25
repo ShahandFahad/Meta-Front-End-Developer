@@ -1,0 +1,15 @@
+div{
+    margin: 4px;
+}
+#photo {
+    border: 2px solid blue;
+}
+h1 {
+    color: blue;
+}
+h2 {
+    color: grey;
+}
+hr {
+    margin: 4px;
+}

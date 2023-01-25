@@ -1,0 +1,33 @@
+CSS:
+    how to dislpay element on screen
+Selectors: 
+    Element Slectors, 
+    ID Selectors, 
+    Class Selectors,
+    Element With Class Selectors,
+    Descendant Selectors,
+    Child Selectors (Immediate Descendats),
+    :hover Pseudo-Class
+
+Colors:
+    By RGB value,
+    By RGBA value,
+    By HSL value,
+    By hex value and
+    By predefined color names.
+Text Properties:
+    Text Color: color
+    Text Font and Size: font-family, text-size
+    Text Transformation: text-transform
+    Text Decoration: text-decoration
+
+
+BOX MODEL: 
+    content
+    padding
+    border
+    margin
+calculate box width or height using theses
+
+Block Element
+Inline Element

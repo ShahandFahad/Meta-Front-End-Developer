@@ -1,0 +1,56 @@
+Static Content: Files Stored on Server
+Dynamic Content: 
+    Generated When http request is made. The application server generates the dynamic content that the web server sends back to the user’s browser. 
+                 Browser -> Webserver -> Webserver
+                 Browser <- Webserver <- Webserver
+    Web server use CACHING (keep copy of dynamic content readily avaialable upon request)
+
+    Single Page application (SPA)
+        One HTML Page
+        Get Content Updates
+        Rewrite the Current Page
+     1. Bundling: 
+        bundling will return all resources immediately and lazy loading returns only the minimum required resources.
+     2. Lazy Loading | Code Splitting: 
+        Bundling will return all resources immediately and lazy loading returns only the minimum required resources.
+     Send Request to server it Returns JSON object rather than returning whole page.
+
+
+What is REACT?
+    Based on Components
+    Single Page application
+    Mobile App using React Native
+    Allow to Write Less Code
+React Component: Small Piece of user Interface
+    Isolated Development
+    Isoloated Testing
+    Re-using Component
+React allows developers to write less code to implement functionality in a web browser, it helps them maintain code in the long term and simplifies testing, and it also allows developers to re-use components when building their applications.
+
+How REACT Works?
+    Reconciliation :
+        Virtual DOM compared with Real DOM and if Update required then make changes.
+        
+        React updates the virtual DOM and compares it to the previous version of the virtual DOM. If a change has occurred, only that element is updated in the browser DOM. Changes on the browser DOM cause the displayed webpage to change. 
+    React Fiber Architecture
+    The React team invested many years of research into solving this problem. The outcome of that research is what’s known as the React 
+
+
+
+Fiber Architecture.
+
+The Fiber Architecture allows React to incrementally render the web page. What this means is that instead of immediately updating the browser DOM with all virtual DOM changes, React can spread the update over time. But what does "over time" mean?
+
+Imagine a really long web page in the web browser. If the user scrolls to the bottom, the top of the web page is no longer visible. The user then clicks a button on the bottom of the web page that updates some text on the top of the web page.
+
+But the top of the page isn’t visible. Therefore, why update it immediately?
+
+Perhaps there is text currently displayed on the bottom of the page that also updates when the button is clicked. Wouldn’t that be a higher priority to update than the non-visible text?
+
+This is the principle of the React Fiber Architecture. React can optimize when and where updates occur to the browser DOM to significantly improve application performance and responsiveness to user input. Think of it as a priority system. The highest priority changes, the elements visible to the user, are updated first. While lower priority changes, the elements not currently displayed, are updated later.
+
+While you’re unlikely to interact with the virtual DOM and Fiber Architecture yourself, it’s good to know what’s going on if issues occur during the development of your web application.
+
+
+ Component Hirerchy
+ The great benefit of developing your website with React is that components can be reused so that you do not need to code every 

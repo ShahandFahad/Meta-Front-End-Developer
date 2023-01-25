@@ -1,0 +1,28 @@
+Working With Libraries
+    bootstarp library and bootstap javascript library, CDN
+    Package Manager: i.e NPM(Node Package Manager), Download and Manage Dependencies
+    Bundling: 
+        Bundling tool to gather all your dependencies and combine them so that they can be referenced from your HTMLfile.i.e,  Gulp and Webpack
+
+Introduction To Responsive Webdesign
+    1. Flexible Grid
+    2. Fluid Image
+    3. Media Querires
+
+Bootstrap
+Getting Started With Bootstrap
+    Some Classes: container, row, col, img-fluid, table,
+Using Bootstrap Styles
+    alert
+    alert-primary, alert-danger, etc
+    col-6, etc
+    col-lg-6, (Using responsive, lg stand for large screen)
+    i.e., <div class="alert alert-primary" role="alert"> content </div>
+
+Bootstrap Grid
+    1. Container
+    2. Rows
+    3. Columns
+Bootstrap Components
+    Pre-Made set of UI elements and Styles
+    

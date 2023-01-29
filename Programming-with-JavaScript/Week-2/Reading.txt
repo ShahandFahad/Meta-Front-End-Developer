@@ -1,0 +1,55 @@
+Here you'll learn how to use objects, arrays and functions. In addition, you will learn about the most common built-in methods, and the difference between undefined, null and empty strings. And you'll explore both error handling and defensive programming. After completing this module, you will be able to:
+Learning Objectives
+Build and use objects, arrays, and functions
+List some common built-in methods on built-in objects
+Describe handling bugs and errors using try, catch, throw, and defensive programming
+Explain the difference between undefined, null, and empty strings
+Demonstrate how to write basic code using arrays, objects, and functions
+
+
+Function: Avoid repitation
+Array: Sequence of data
+
+Objects:
+    Objects can be described as collections of related properties where each property is represented as a key value pair. 
+    object = {Property Key : Property Value}
+    i.e., 
+        var Person = {key:value};
+        var user = {}; //create an object
+
+    Object Literals and the Brackets Notation
+        var object = {};
+        object[key] = value;
+        object[key] = value;
+
+    NOTE: 
+        With the brackets notation, I can add space characters inside property names
+
+        Additionally, I can add numbers (as the string data type) as property keys
+    
+    Math: Object in JS for math operation
+
+    Strings-Methods: 
+        charAt(),concat(),indexOf(),lastIndexOf(),split(),toUpperCase(),toLowerCase()  
+
+
+Typeof operator
+
+Bugs and errors: An error can be defined as a faulty piece of code that prevents the program from further execution, an error gets thrown and the program stops.
+    TypeError
+    SyntaxError
+    Reference Error
+
+Error Handling: 
+The try catch statement keeps a program running when it encounters an error.
+
+Undefined: i.e., var myVarable1;
+NULL: Absense of Value,
+Empty: var str = "";  //reperent empty string literal
+
+
+Defensive Programming: 
+    Defensive programming is all about assuming that all the arguments a function will receive are of the wrong type,  the wrong value or both.
+
+    In other words, you are assuming that things will go wrong and you are proactive in thinking about such scenarios before they happen, so as to make your function less likely to cause errors because of faulty inputs.
+

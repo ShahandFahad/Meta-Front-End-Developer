@@ -1,0 +1,69 @@
+In this module, you are introduced to JavaScript. You'll learn why JavaScript is so integral to software development. And you'll get an overview of how to write JavaScript code inside the browser. Furthermore, you will learn about the most common operators as well as conditional statements and loops. After completing this module, you will have completed the following learning objectives:
+Learning Objectives
+Explain the importance of JavaScript in software development
+Demonstrate how to write JavaScript code inside the browser
+Demonstrate how to write basic JavaScript code: List common operators, conditional statements and loops
+Demonstrate how to use variables and output their values in the console
+
+
+
+Welcome to Programming
+    Computer Program is a series of instruction.
+    Low level Languages
+    High level Languages
+    The zeros and ones of binary code is a low-level language because it's closer to being understood by a CPU. JavaScript on the other hand is a high-level language. This means that it has to be converted to binary code so that a CPU can work with it.
+
+    JavaScript: 
+        Language of interactivity, language of web. clinet side form validation,
+        Typescript complie down to JavaScript.
+        Only computer language to interact with web. Backwords compatibility
+
+    JavaScript is integral to our everyday online experiences. Which of the following statements are true? Choose all that apply.  
+
+
+JavaScript is used to power websites.
+
+Correct
+That's correct! JavaScript is after all often called the language of the web.
+
+
+
+JavaScript can provide a native feel to apps.  
+
+Correct
+That's correct! Using JavaScript developers can create an original user experience. 
+
+
+
+Using JavaScript and React Native developers can create mobile apps.  
+
+Correct
+That's correct! JavaScript isn't limited to only being used in browsers. Developers can also create apps using it in conjunction with React Native.
+
+
+JQuery
+React
+
+Leagacy Code: Old Code
+
+Vaiables: verstality, reuse
+Datatypes:  There are seven primitive data types in JavaScript. These are string, number, Boolean, null, undefined, BigInt and symbol.
+
+NULL: Absense of values
+Undefined: Unassigned Value
+
+Operators: Assignemnet and Logical
+
+If parentheses are not used in a mathematical calculation, JavaScript will follow the standard mathematical sequence of calculation.  
+
+
+Number Datatypes
+Strings
+Booleans
+
+
+Conditional And loops
+
+if-else: 
+Switch: 
+Loops: for, while, do-while, Nested-Loops

@@ -1,0 +1,26 @@
+node & NPM
+
+Node.js can run in multiple settings, for example, on the command line, in a desktop application, or on the back-end of a web app (on a server). And it's a completely separate, standalone environment without ties to the JavaScript in the browser.      
+
+Node.js -> comes With Package Manager->called-> NPM(node package manager)
+
+Testing: JEST
+
+expect('value').tob=Be('case')
+
+The following is a correct example of a Jest test?
+    expect(concatStrings("123", "456")).toBe("123456");
+
+Refactoring is the process in which I write my feature code so that it runs more efficiently or that it's easier to read and thus easier to understand for other programmers on the team. This is done without affecting the results that the code produces. 
+
+Testing is how you verify the expectations you have regarding the behavior of your code.
+
+Types of Testing:
+    1. End to End Testing (e2e)
+    2. Integration Testing
+    3. Unit Testing
+
+
+Testing JS: JEST Frame Work
+Test Driven Development (TDD): 
+    Write (failing test) test case before: and try to pass all the test cases according to the requirements (then write passing test)

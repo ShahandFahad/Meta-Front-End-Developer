@@ -21,6 +21,8 @@ By the end, you’ll put your new skills to work by completing a real-world proj
 
 #
 
-### Certificates
+## Certificates
 
 [ 1: Introduction to Front-End Development](https://coursera.org/share/73f483b63bc0f1b19f32badff052ef0d)
+
+[ 2: Programming with JavaScript](https://coursera.org/share/2046d845ecbe3b93ed17df19c2c33755)

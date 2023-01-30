@@ -1,0 +1,94 @@
+This module is about functional programming and the oriented programming paradigm. You will learn what scope is in JavaScript. You'll explore the differences between var, let and const. And you'll learn how to use classes and inheritance in object oriented programming. Additionally, you'll explore how to use write JavaScript using modern features like spread and rest. You will build code that can manipulate the DOM and handle events. And you will use JSON in JavaScript. After completing this module, you will be able to:
+Learning Objectives
+Outline the tenets of the functional programming and object-oriented programming paradigm
+Describe how scope works in JavaScript
+List the differences between var, let, and const
+Use classes and inheritance in OOP in JavaScript
+Use JSON in JavaScript
+Build code that manipulates the DOM and handles events
+Write JavaScript code using more modern features like spread, rest, template strings, and modules
+
+Introduction to functional programming
+    Functional Programming: FP
+    Obejct oriented programming: OOP
+
+Functional Programming: 
+    Data can Exist outside functions and send as a parameters to functions
+    In functional programming, data and functions that operate on it are clearly separated, not combined inside objects.
+
+Obejct Oriented Programming: 
+    Data and functions are combined, functions are called methods
+
+
+Function Calling and Recursion:
+Scope: Code Accessibility i.e., Global and Local Varables
+
+ Variables created within the local scope cannot be read by code at the global scope level. They are accessible only to functions located within the local scope.  
+
+ When writing FP(Functional Programming) code, we keep data and functionality separate and pass data into functions only when we want something computed
+
+ Another style is object-oriented programming (OOP). In this style, we group data and functionality as properties and methods inside objects
+
+There are many more concepts and ideas in functional programming.
+Here are some of the most important ones:
+    First-class functions
+    Higher-order function
+    Pure functions and side-effects
+
+Scopping:
+    var, let, const
+    Block Scope: let and Const
+ When you use let and const to declare a variable, it is scoped to the block - even within if statements and loops, like the for or while loops. Therefore, the quantity variable you create will only exist within the for loop.  
+
+
+ Introduction to OOP    
+
+ The prototype is an object that can have properties to be shared by multiple other objects.
+
+ Destructuring Arrays and objects
+  Extract the properties from objects into distinct variables using destructuring.
+
+  for of loop
+  for(var value of array/object etc){}
+
+
+  When working with objects, the for-of loop and for-in loop can be used to iterate over the object's properties. Which of the following statements are correct? Choose all that apply. 
+
+
+The for-of loop will iterate over the object's own properties only when using the Object.keys() method to return an array to loop over.
+
+Correct
+Correct! The for-of loop will iterate over the object's own properties only when using the Object.keys() method to return an array to loop over.
+
+
+
+The for-of loop will not iterate over the object and its prototype properties.
+
+Correct
+
+Correct! The for-of loop will not iterate over the object and its prototype properties.
+
+
+Data Structures:
+    Objects, Arrays, Maps, Sets
+
+     It's important not to confuse a map with an object. With maps any value can be used as a key. With objects, keys can only be strings or symbols.
+
+
+Spread Operator:
+    The spread operator allows you to pass all array elements into a function without having to type them all individually.
+    i.e: [...Array]
+
+Rest Operator:
+    The rest operator can be used to destructure existing array items, rather than typing them out again.
+    The rest operator allows you to take items from an array and use them to create a separate sub-array. 
+
+
+JavaScript Modules
+DOM: 
+    The DOM is an in-memory representation of the active HTML document. Any changes made are local and do not affect the document stored on the webserver.
+JavaScript Selectors: 
+Event Handling:
+
+JSON:
+When working with JSON it is common to convert it back to a JavaScript object to work with its properties. To do this you need to use the global built-in JSON object and its parse method.  

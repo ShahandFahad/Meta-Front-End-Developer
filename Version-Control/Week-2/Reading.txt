@@ -1,0 +1,43 @@
+Command Line
+
+Commands
+ cd ~/
+ cd ..
+ touch
+ mkdir
+ code
+
+Unix Commands
+man(manual) i.e, man ls :-> show details for ls command
+
+ls
+ls -l
+ls -al
+ls -a (hidden files)
+pwd
+cp
+mv
+
+
+PIPES:
+    ls file1.txt |wc-w
+
+
+Redirections
+Standart INPUT(0)(<), OUTPUT(1)(>), ERR(2)(2>)
+
+cat > input.txt #store data inthe file
+cat < input.txt # get data
+
+ls -l > output.txt # send output to the file
+
+    2>
+    2>$1
+
+    # send error to error_output.txt file
+        ls -l /someDirecotor > error_output.txt 2>&1
+    
+
+grep
+
+    grep text filename.txt

@@ -1,0 +1,90 @@
+This module will help you to develop a strong conceptual understanding of the Git technology and how it is used in software development projects to manage team files. You will install Git, create a local repository, create a commit, create a remote repository and push commits to a remote repository.
+Learning Objectives
+Outline the Git principles.
+Use a GitHub repository.
+Describe the steps in a standard GitHub workflow.
+Create branches and merge different branches and sources.
+Describe how code goes from local development to version control and then to live production.
+
+
+
+GIT:
+GITHUB:
+
+Git is a version control system designed to help users keep track of changes to files within their projects.    
+
+SSH
+GitHub allows you to connect using the Secure Shell Protocol (SSH). This provides you with a secure channel over an unsecured network.     
+
+
+Git workflow
+
+1. Modified
+2. Staged
+3. Committed
+
+The correct workflow is from the working directory to the staging area, then to committed files, remote repository and lastly to your colleague.     
+
+git add .
+git commit -m ""
+
+You use the Git add command to tell Git that the file is staged to be committed and that any further changes to the file will be tracked going forward.  
+
+Git branches
+
+// Create branch and move to it
+git checkout -B feature/feature-name
+git add .
+git commit -m "message"
+
+git push -u origin feature/feature-name
+
+-u(going to get updates form the upstream -> 'means main branch')
+
+git checkout main
+git pull
+
+
+
+PULL REQUEST:
+    The purpose of a pull request is to obtain a peer review of changes made to the branch. In other words, to validate that the changes are correct.    
+
+    When you create a pull request you are asking the other developers to review your work and approve it to be merged with the repository.
+
+    
+You would use the Git remote command to set the remote repository.   
+
+Remote VS local
+    Set Local Repo and add to remote:
+        git init
+        git remote add origin put-repository-link
+        git pull # bring all the changes from remote
+        git checkout main # set the main branch to see changes
+
+        git remote -v
+
+
+--------------
+
+git push
+    When you use Git Push, Git compares a snapshot of your local repository with the remote one and only replaces the files that have been changed. 
+
+git pull
+
+
+Git Merge Conflict
+
+Work Flows
+HEAD
+Whenever a change occurs for a commit, the single hashed ID will update to be the latest commit for that working directory. 
+
+Diff Commands
+
+    
+git blame filename.txt
+git blame -L 1,10 filename.txt # return 10 lines
+git blame -l filename.txt
+git log -p commit-id
+
+#
+The order in which the change information will display in each line as follows: < ID><Author><Date><Time><Line number><Content>     

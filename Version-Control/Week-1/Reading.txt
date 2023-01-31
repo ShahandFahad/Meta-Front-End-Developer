@@ -1,0 +1,26 @@
+In this module, you will learn about how modern software developers collaborate across the world without messing up each other's code. This involves using version control or subversion to bring order to the chaos of massive software projects that have the potential for mistakes and bugs. You will look at the different version control systems and how to create an effective software development workflow.
+Learning Objectives
+Describe how modern software teams collaborate and work on the same codebase.
+List different version control systems and methodologies.
+Illustrate a standard software development workflow.
+
+Version Control
+ Version control helps keep track of all changes. It plays an integral role in the explosion of development operations, or DevOps, as it's commonly called. 
+DevOps
+ DevOps is a set of practices, philosophies, and tools that increase an organization's ability to deliver applications or services to a high quality and velocity.
+
+
+Version Contrlled systems
+Centrallized:  A Centralized Version Control system (CVS) contains a server and a client.
+De-Centrallized: Client also participate as a server.
+
+History of Revisons
+Version control is the term given to the system used to keep a detailed record of all changes to the codebase.   
+
+Staging:
+Staging environments can also be used for testing and verifying new features and allow other teams including QA or stakeholders to see and use those features as a pre-trial.
+
+ Agile Process
+ Agile way of working where tasks are planned and executed in a two-week cycle.
+
+ You, as a developer, will normally work on a project alongside many developers and team members with other skillsets. You and your team need to be efficient to make the project a success. To achieve this, you and your team normally work in an agile process.      

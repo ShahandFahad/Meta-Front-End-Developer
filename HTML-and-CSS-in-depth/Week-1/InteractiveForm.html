@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Interactive Form</title>
+  </head>
+  <body>
+    <header></header>
+    <nav></nav>
+    <main>
+      <form method="post">
+        <div>
+          <label for="booking_date">Booking Date</label>
+          <input type="date" id="booking_date" name="booking_date" />
+        </div>
+        <div>
+          <label for="booking_people">Number of People</label>
+          <input
+            type="range"
+            id="booking_people"
+            name="booking_people"
+            min="1"
+            max="10"
+            value="4"
+            oninput="this.nextElementSibling.value = this.value"
+          />
+          <output>4</output>
+        </div>
+        <div>
+          <label for="booking_locations">Location</label>
+          <input
+            id="booking_locations"
+            name="booking_locations"
+            list="locations"
+          />
+          <datalist id="locations">
+            <option value="Up Town"></option>
+            <option value="Down Town"></option>
+          </datalist>
+        </div>
+        <button type="submit">Submit</button>
+      </form>
+    </main>
+    <footer></footer>
+  </body>
+</html>

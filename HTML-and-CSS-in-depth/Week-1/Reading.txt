@@ -1,0 +1,131 @@
+In this module, you will use structured semantic data to control how web sites appear to the user. You will create semantic HTML to structure webpages to look good and work well.
+Learning Objectives
+Create a video and audio player that can rate the media played.
+Post form data to a server
+Recognize server-side connections and the languages used to carry out requests and responses.
+Create and test a form with client-side validation.
+Create commonly-used web page layouts and components.
+Use common semantic and meta tags to improve the accessibility, readability and SEO of a web page.
+
+
+
+1. Course Introduction
+
+Introduction to Html and CSS
+
+Semantic and Meta Tags
+    Semantic tags describe the meaning of a web page and they help search engines and accessibility software like screen readers  to understand the contents of a page. Which of the following statements are true? Choose all that apply.  
+
+
+    The main navigation links of your website should be added inside the nav element.     
+
+    Correct
+    That's correct! The main links allow users to navigate between different parts of your web  page.      
+
+
+
+    The article element is used for complete, self-contained compositions on a web page.     
+
+    Correct
+    That's correct! Examples include a blog post, or an article published in an online magazine or newspaper.      
+
+
+
+    Basic HTML tags like the heading and list tags can be used to describe content.     
+
+    Correct
+    That's correct! For example, a heading tag like h1 describes that the content is a heading.      
+
+
+
+
+Meta Data:
+    SEO
+    You want to improve the SEO of a website. What metadata should you add to the head element of the website and why? Check all that apply.     
+
+
+    Viewport data to help web browsers display websites at the appropriate scale on the device being used.     
+
+    Correct
+    That's right.  Mobile devices will by default attempt to render a web page as if it is being viewed on a desktop. The solution is to define viewport metadata.       
+
+
+
+    Author metadata to inform search engines who the author of the web page is.     
+
+    Correct
+    That's right. Author metadata specifies the author of the web page.       
+
+
+
+    Robots metadata to improve how search engines analyze the website.     
+
+    Correct
+    That's right. The name “robots” comes from the automated software, often referred to as “bots”, that search engines use to analyze websites.      
+
+
+
+    Description metadata to help search engines understand what the web page is about.    
+
+    Correct
+    That's right. The description metadata describes the content of the web page.     
+
+
+
+
+User Input and Forms
+
+Form Validation:
+    Form validation is a process that ensures that the data entered by the user in a form is valid and conforms to rules defined by the developer. There are two methods of form validation, client-side validation and server-side validation.
+
+Client-side validation checks for errors as soon as they are typed into the form. The web browser does this by validating the submitted data against the specified input type. The web browser will show an error message if the wrong type of input has been submitted.
+
+
+What additional attributes can you add to an element on an HTML form to improve client-side validation? Check all that apply.      
+
+
+minlength    
+
+Correct
+That's right. You can specify the minimum number of characters required for a form field by adding for example: 
+
+
+minlength="3" inside the input type element.      
+
+
+
+required    
+
+Correct
+That's right. If it is essential that a user submit a response to a specific field on your form, you should add:
+
+Required inside the input type element.      
+
+maxlength    
+
+Correct
+That's right. You can specify the maximum number of characters allowed for a form field by adding for example:
+
+
+maxlength="12" inside the input type element.  
+
+
+
+Radio Buttons
+    If you do not add a fieldset element to each radio button, all radio buttons will belong to the same group.    
+
+The Datalist input type is also useful when the list of options might become longer in future.  
+
+
+
+Form Submission
+    Sending Data to Server
+        Post: http post request
+        GET: http get request
+
+Absolute and Relative Paths
+
+
+Media Elements
+IFrames
+Canvas

@@ -57,3 +57,37 @@ True
 
 Correct
 That's correct! Using the repeat function in addition to the auto properties will reduce redundancy and provide ease of code modification.      
+
+Css Selectors
+    1. Descendent Selectors
+    2. Child Selectors(>)
+    3. General Sibling Selectors(~)
+    4. Adjacent Sibling Selectors(+)
+
+What is the difference between Adjacent and Sibling combinators?      
+
+
+Adjacent combinators will only target the first element after the specified elements while Sibling combinators target all elements of the same type that follow the specified element.         
+
+Correct
+That's right. They both affect elements that follow a specified element. Adjacent combinators will only target the first element and Sibling combinators target all elements of the same type after the specified element
+
+
+Psuedo Classes
+    :hover
+    :active
+    :focus
+
+    Form Sudo Classes
+        :valid and :invalid
+        :checked and indeterminate
+        :disabled and enabled
+    List Sudo Classes
+        :first-type
+        :last-of-type
+        :nth-of-type()
+        :nth-last-of-type()
+
+    Web-links-states
+        LVHA(:link, :visited, :hover, :active)
+     Developers use the acronym LVHA to remind them of the order that they need to follow when writing pseudo-class rules. LVHA stands for link, visited, hover, active.   

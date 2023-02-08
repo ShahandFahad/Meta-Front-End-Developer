@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Search Bar Using Dlex</title>
+    <link rel="stylesheet" href="style.css" />
+    <!--  -->
+    <style>
+      .container {
+        display: inline-flex;
+        flex: 1 1 300px;
+        border-radius: 10px;
+        border: 1px solid #ccc;
+        overflow: hidden;
+      }
+      .search-icon {
+        padding: 0.8rem;
+      }
+      .searchBox {
+        border: 0;
+        flex: 1;
+      }
+
+      .searchButton {
+        color: white;
+        background: #0f4a8a;
+        border: 0;
+        padding: 0.8rem;
+        border-radius: 8px;
+      }
+    </style>
+    <!--  -->
+  </head>
+  <body>
+    <header></header>
+    <nav></nav>
+    <main>
+      <!--  -->
+      <div class="container">
+        <img
+          src="./search-outline.svg"
+          alt="search icon"
+          class="search-icon"
+          style="width: 32px; height: 24px"
+        />
+        <input
+          type="search"
+          class="searchBox"
+          name="search"
+          placeholder="Enter text here..."
+        />
+        <input type="submit" value="Search" class="searchButton" />
+      </div>
+      <!--  -->
+    </main>
+    <footer></footer>
+  </body>
+</html>

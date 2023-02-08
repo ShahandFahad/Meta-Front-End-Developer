@@ -1,0 +1,63 @@
+/* Properties for other selectors */
+*{
+    font-family: Monaco;
+}
+
+.menu, .ll{
+    text-align: center;
+    color:#FA9F42;
+}
+
+.ll{
+    font-size: 30px;
+    margin-bottom: 20px;
+    border-bottom: 2px solid #495E57;
+}
+
+.menu-container {
+    max-width: 800px;
+    display: flex;
+    justify-content: center;
+    background-color:#E0E0E2;
+}
+
+
+/* Add rules for the steps mentioned below */
+.section {
+    padding: 10px
+}
+
+.label {
+    font-weight: bold;
+}
+
+.description {
+    font-style: italic;
+    border-top: 2px solid #495E57;
+}
+
+.item-name {
+    margin: 25px;
+    font-size: 12px;
+}
+
+b {
+    float: right;
+    margin-top: -15px;
+    color: darkcyan;
+}
+
+div > h3 {
+    font-size: 20px;
+    margin: 20px;
+    text-align: center;
+    color: #495E57;
+}
+
+.label + .low {
+  color: brown; 
+}
+
+.div ~ div{
+    color: rgb(90, 90, 90);
+}

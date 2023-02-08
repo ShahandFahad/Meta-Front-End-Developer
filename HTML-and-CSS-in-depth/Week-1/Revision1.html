@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Revision</title>
+  </head>
+  <body>
+    <header></header>
+    <nav></nav>
+    <main>
+      <form action="my_action_page">
+        <label for="uname">Username:</label>
+        <br />
+        <input type="text" id="uname" name="username" />
+        <br />
+        <label for="pwd">Password:</label>
+        <br />
+        <input type="password" id="pwd" name="pwd" />
+        <br /><br />
+        <input type="submit" value="Login" />
+      </form>
+
+      <fieldset>
+        <legend>Personal Info</legend>
+        <label for="fname">First name:</label><br />
+        <input type="text" id="fname" name="fname" value="John" /><br />
+        <label for="lname">Last name:</label><br />
+        <input type="text" id="lname" name="lname" value="Doe" /><br />
+      </fieldset>
+
+      <fieldset>
+        <legend>Qualificaiton</legend>
+        <label for="pdegree">Primary degree:</label><br />
+        <input type="text" id="pdegree" name="degree" value="Masters" /><br />
+        <label for="fos">Last name:</label><br />
+        <input type="text" id="fos" name="field" value="Psychology" /><br />
+      </fieldset>
+
+      <form action="/my_action_page">
+        <label for="flowers">Favourite flower:</label><br />
+        <input list="flowers" name="flowers" />
+        <datalist id="flowers">
+          <option value="Rose"></option>
+          <option value="Lily"></option>
+          <option value="Tulip"></option>
+          <option value="Daffodil"></option>
+          <option value="Orchid"></option>
+        </datalist>
+
+        ...
+      </form>
+
+      <label for="course">Choose a course:</label><br />
+      <select id="course" name="courselist">
+        <option value="html">HTML Introduction</option>
+        <option value="css">Styling with CSS</option>
+        <option value="js">JavaScript</option>
+        <option value="react">React Basics</option>
+      </select>
+    </main>
+    <footer></footer>
+  </body>
+</html>

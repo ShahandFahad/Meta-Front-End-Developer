@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Flex Box</title>
+    <!-- Style -->
+    <style>
+      .box {
+        background-color: aquamarine;
+        border-radius: 5px;
+        margin: 2px;
+        padding: 10px;
+      }
+      .flex-container {
+        display: flex;
+        /* flex: 0 1 auto; contains grow shrink etc */
+        justify-content: center;
+        flex-wrap: wrap;
+        /* flex-direction: column; */
+        align-items: flex-end;
+        gap: 10px;
+      }
+      .box3 {
+        background-color: blanchedalmond;
+        align-self: center;
+        /* flex: 1 1 auto; */
+      }
+    </style>
+  </head>
+  <body>
+    <header></header>
+    <nav></nav>
+    <main>
+      <!--  -->
+      <div class="flex-container">
+        <div class="box box1">One..</div>
+        <div class="box box2">Two..</div>
+        <div class="box box3">Three..</div>
+        <div class="box box4">Four..</div>
+        <div class="box box5">Five..</div>
+        <div class="box box6">Six..</div>
+        <div class="box box7">Seven..</div>
+      </div>
+      <!--  -->
+    </main>
+    <footer></footer>
+  </body>
+</html>

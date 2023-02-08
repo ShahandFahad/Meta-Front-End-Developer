@@ -1,0 +1,59 @@
+Question
+
+CSS layouts is all about how the content of your web page is organized. Flexboxes, grids and boxes are all popular CSS layout options. Which of the following statements about CSS layouts are correct? Select all that apply.        
+
+
+Flexboxes and grids can help create rules for multiple elements.     
+
+Correct
+That's correct! Flexboxes and grids can help create rules for multiple elements.     
+
+
+The display property specifies the type of box you want to use for an HTML element.    
+
+Correct
+That's correct! The display property does specify the type of box you can use for an HTML element.    
+
+
+A flexbox is one-dimensional.     
+
+Correct
+That's correct! Flexboxes are one-dimensional. A given flexbox container will lay things out in either a column or a row along its axis.      
+
+
+A grid is two-dimensional.     
+
+Correct
+That's correct! Grids are two-dimensional. A grid creates a two-dimensional grid along both the row and column axes.       
+
+
+
+Question
+
+Flexboxes are ideal for creating a:      
+
+
+Search bar
+
+Correct
+Correct! The most common uses of flexbox in CSS are creating a responsive search bar, navigation bar and image gallery.      
+
+
+Image gallery
+
+Correct
+Correct! The most common uses of flexbox in CSS are creating a responsive search bar, navigation bar and image gallery.       
+
+
+Navigation bar
+
+Correct
+Correct! The most common uses of flexbox in CSS are creating a responsive search bar, navigation bar and image galler
+
+
+CSS grids are responsive, two-dimensional design layouts. Is the following statement true or false? The best way to ensure uniformity of rows and columns when setting grids is to use auto properties and the repeat function together.      
+
+True
+
+Correct
+That's correct! Using the repeat function in addition to the auto properties will reduce redundancy and provide ease of code modification.      

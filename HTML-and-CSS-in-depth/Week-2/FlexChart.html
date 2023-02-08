@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Simple Chart With Flex Box</title>
+    <!-- Style -->
+    <style>
+      .row {
+        display: flex;
+        align-items: stretch;
+      }
+
+      .row .lable {
+        flex: 0 0 auto;
+        font-family: Verdana, Geneva, Tahoma, sans-serif;
+      }
+
+      .row .container {
+        flex: 1;
+        display: flex;
+        justify-content: flex-start;
+      }
+
+      .row .dish {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+      }
+
+      .pasta {
+        background-color: #ee9972;
+      }
+
+      .pizza {
+        background-color: #f4ce14;
+      }
+
+      .burrito {
+        background-color: #495e57;
+      }
+    </style>
+  </head>
+  <body>
+    <header></header>
+    <nav></nav>
+    <main>
+      <!--  -->
+      <div class="row">
+        <div class="label">Preffered Dishes</div>
+        <div class="container">
+          <div class="dish pasta" style="flex-basis: 35%">35%</div>
+          <div class="dish pizza" style="flex-basis: 50%">50%</div>
+          <div class="dish burrito" style="flex-basis: 15%">15%</div>
+        </div>
+      </div>
+      <!--  -->
+    </main>
+    <footer></footer>
+  </body>
+</html>

@@ -99,7 +99,7 @@ Psuedo Classes
      Animations
      Animations are a type of effect that has brought life like quality to web pages and today they are an all pervasive part of web development.
 
-     GIF etc...
+     GIF(Graphics Interchange Format) etc...
 
      Text Effects:
     

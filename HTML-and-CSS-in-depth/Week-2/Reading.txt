@@ -91,3 +91,21 @@ Psuedo Classes
     Web-links-states
         LVHA(:link, :visited, :hover, :active)
      Developers use the acronym LVHA to remind them of the order that they need to follow when writing pseudo-class rules. LVHA stands for link, visited, hover, active.   
+
+
+     CSS EFFECTS
+     The formal definition of the word effect is a change that is a result or consequence of an action or other cause.
+     
+     Animations
+     Animations are a type of effect that has brought life like quality to web pages and today they are an all pervasive part of web development.
+
+     GIF etc...
+
+     Text Effects:
+    
+     Transform and Transition
+        Transform: add Animations
+        Transition: handle the speed of animation
+    
+    CSS Animations and KEY FRAMES
+        When developers want to create complex animations, they use the animation property. But to control the execution of the steps of the animation they use the at-keyframe rule.       

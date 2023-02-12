@@ -1,0 +1,30 @@
+About the portfolio project
+By completing the lessons in this course, you have acquired the necessary HTML and CSS skills and knowledge to develop a home page with a header, main content and footer. You will have to decide whether you are going to use a grid or flexbox layout for your home page. Your header should contain the client logo and the main content should be a large promotional banner with three columns with text and images below it. Your footer will have two columns: the first column should have a small logo and the second one should have copywriting information. When it comes to styling, you'll have to create the appropriate look and feel for your client's target audience. Remember, you want to create intentional engagement!
+
+To enable you to do all of this, the module covers the most essential features of your project. This includes: selecting your fictional client, working out your layout, positioning the elements, planning the user experience, creating themes and setting up your local development environment.
+
+What is the purpose of the portfolio project?
+The graded assessment will help you to establish which topics you have mastered, and which topics require further focus before you can complete the course. Ultimately, the graded assessment is designed to help you make sure that you are ready for the next course in this program. And even more, you get the opportunity to create another project for your portfolio.
+
+How do I prepare for the graded portfolio project?
+You have encountered exercises, knowledge checks, in-video questions and other assessments as you have progressed through the course. Nothing in the graded assessment will be outside what you have covered already, so you should be well placed to succeed.
+
+What will I be doing?
+The purpose of this graded assessment is to check your knowledge and understanding of the key learning objectives of this course. And what better way to do that than by applying your newly-learned skills in a practical way? You will develop a home page for one of four fictional clients. And you can read more about them in the Subject selection reading. The client you choose will determine what links, pictures and colors you will use. You are free to use your creativity but the home page needs to meet certain criteria regarding the following:
+
+Visual layout
+
+Semantic structure
+
+CSS layout
+
+CSS styling
+
+CSS effects
+
+How will I get feedback?
+This is a peer-review project which means that your home page will be evaluated by your fellow learners. Of course, this means that you will also need to give feedback to your peers and grade their home pages. In this way, you can learn from other learners' ideas and the issues that they may have encountered.
+
+The rest of this lesson will guide you on how best to approach the development of your home page.
+
+Good luck!

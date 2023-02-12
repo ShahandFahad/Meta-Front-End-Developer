@@ -1,0 +1,141 @@
+body{
+    background-color: hsl(0, 100%, 100%);;
+    font-family: Helvetica, sans-serif;
+    margin-bottom: 3rem;
+    margin-left: 5%;
+    margin-right: 5%; 
+}
+h1 {
+    font-size: 3rem;
+}
+
+h2 {
+    font-size: 2rem;
+}
+
+header > img {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+nav {
+    border-radius: 12px;
+    background-color: #FFD1DC;
+}
+nav ul {
+    list-style: none;
+    text-align: center;
+    
+    height: 8vh;
+}
+
+nav li {
+    display: inline-block;
+    height: 48px;
+    width: 80px;
+    margin-left: 5%;
+}
+nav ul li a {
+    display: block;
+    margin-top: 25%;
+    text-decoration: none;
+    color: #000;
+    font-size: 24px;
+    font-weight: 680;
+}
+nav ul li a:hover{
+    color: #ea3f94;
+}
+
+
+section {
+    display: flex;
+}
+
+article {
+    flex: 1;
+    border-radius: 12px;
+    padding: 15px;
+
+    ;
+}
+
+/* 
+    Seeting the First Article of the main Element to Display Background image and promotion text 
+*/
+#blur-article {
+    background-image: url("./Assets/ImagesAndLogos/background.jpg");
+    height: 100%;
+    width: 100%;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+
+/* Designing the 3 Articles as cards contains Title image and text */
+.small-cards {
+    border: 1px solid #c2c2c2;
+    border-radius: 10, 100;
+    display: flex;
+    flex-direction: column;
+    justify-content: start;
+    margin-top: 1%;
+    border-radius: 25px 1px 25px 1px;
+    margin: 5px;
+
+    
+}
+
+/* This is create a transition when mouse is hovered over */
+.small-cards:hover {
+    box-shadow:
+            0 1px 1px hsl(0deg 0% 0% / 0.075),
+            0 2px 2px hsl(0deg 0% 0% / 0.075),
+            0 4px 4px hsl(0deg 0% 0% / 0.075),
+            0 8px 8px hsl(0deg 0% 0% / 0.075),
+            0 16px 16px hsl(0deg 0% 0% / 0.075);
+    transition: 0.5s ease;
+}
+.small-cards > img {
+    border-radius: 25px 1px 25px 1px;
+}
+
+/* Styling the Table inside the article */
+table {
+    font-family: Arial, Helvetica, sans-serif;
+    border-collapse: collapse;
+        width: 100%;
+    border: 1px solid #FF007F;
+    text-align: center;
+}
+table td,
+table th {
+    border: 1px solid #FFD1DC;
+    padding: 8px;
+}
+
+table tr:hover {
+    background-color: #d4d4d4;
+}
+
+table th {
+    padding-top: 12px;
+    padding-bottom: 12px;
+    text-align: center;
+    background-color: #FFD1DC;
+}
+
+/* Footer Styling */
+footer {
+    display: flex;
+    align-items: center;
+}
+footer div {
+    flex:  1;
+    padding: 10px;
+}
+footer div p {
+    text-align: right;
+}

@@ -28,3 +28,5 @@ By the end, you’ll put your new skills to work by completing a real-world proj
 [ 2: Programming with JavaScript](https://coursera.org/share/2046d845ecbe3b93ed17df19c2c33755)
 
 [ 3: Version Control](https://coursera.org/share/8b4e2a468c1cf5b97c9e52d0ce6d3db0)
+
+[ 4: HTML and CSS in depth](https://coursera.org/share/8ff2581000453e5c1c76c33599a1e59a)

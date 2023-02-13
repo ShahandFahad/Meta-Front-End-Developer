@@ -1,0 +1,32 @@
+In this module you will explore the basic structure and use of the React.js library. You will learn how to produce single page web applications using React components and to use JSX to style them.
+Learning Objectives
+Explain the concepts behind React and component architecture
+Create a component to serve a specific purpose
+Create a component folder and demonstrate how to create and import files within that folder
+Use and manipulate props and components to effect visual results
+Describe how to use assets within an app to apply styling and functional components
+
+State:
+    State is simply all the values of all the variables your app is working with at any given point in time.
+
+Creating First Ract App:
+    1. npm init react-app my-first-app
+    2. cd my-first-app
+    3. npm start
+       See result in the live server
+
+    Note:
+        npm start: 
+            Runs the app in the development mode. Open http://localhost:3000 to view it in the browser.
+        
+        npm test: 
+            Launches the test runner in the interactive watch mode.
+
+        npm run build: 
+            Builds the app for production to the build folder. It correctly bundles React in production mode and optimizes the build for the best performance.
+
+        npm run eject
+            Note: this is a one-way operation. Once you eject, you can’t go back!
+            If you aren’t satisfied with the build tool and configuration choices, you can eject at any time. This command will remove the single build dependency from your project.
+
+            

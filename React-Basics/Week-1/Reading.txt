@@ -29,4 +29,66 @@ Creating First Ract App:
             Note: this is a one-way operation. Once you eject, you can’t go back!
             If you aren’t satisfied with the build tool and configuration choices, you can eject at any time. This command will remove the single build dependency from your project.
 
-            
+React Components and Where They Live
+            Why React?
+                React use Composition
+                Client Side library
+                Complex UI's
+                Single Page Application
+                Flexibility
+            Architecture:
+                React use Component Based Architecture
+                React use Virtual DOM
+
+            This is essentially a design philosophy for building software based on reusable components of code. Each component consists of well-defined functionality that can be inserted into an application without requiring modification of other components. Because components are reusable, they can be used multiple times and easily inserted anywhere we're needed. This results in components that can exist within the same space yet interact independently from each other.
+
+             SPA(Single Page Application)
+                React enables developers to build SPAs (single page applications).
+
+                A technology that loads a single web page and performs updates to the DOM on this single web page based on user interaction with this web page in known as a SPA. Indeed, React allows developers to build SPAs. 
+
+            React Virtual DOM  
+                Clone of the real DOM which minimizes updates to the DOM itself. React uses the virtual DOM to update the browser Dom only when needed. 
+
+            React Components
+                a. Functional Components   
+                b. Class Components
+
+            JSX: Javascript XML (Syntax Extension to Javascript)
+                Combination of Custom Html and Javascript
+
+            Creating Component:
+                a. All Components name must be captalized
+                b. Enclose variables etc in {}
+                c. React Distinguish JSX from html through Captilazation
+-------------------------------------------------------------------------
+            Example:
+--------------------
+                (file name)
+                (component)
+                1. App.js  
+                2.       function App(){
+                            let pageTitle = "This is my Page Title";
+
+                            return (
+                                <h1> {pageTitle} </h1>
+                            );
+                        }
+
+                        export default App;
+-------------------------------------------------------------------------
+                Transpiling:
+                    Transpiling as a process of converting JSX to HTML 
+
+                
+                Babel
+                    What Babel does is this: it allows you to transpile JSX code (which cannot be understood by a browser) into plain JavaScript code (which can be understood by a browser).
+
+React Project Structure
+        -> node-modules/
+        -> public/
+        -> src/
+        -> root-files
+
+Component: Single piece of functionality
+Module: Series of Components

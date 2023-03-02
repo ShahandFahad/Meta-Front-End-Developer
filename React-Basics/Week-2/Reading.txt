@@ -1,0 +1,13 @@
+Data and State
+
+In this module you will explore the concept and practical use of state and stage-management. You will also gain knowledge on how to handle events and the ability to dynamically change content on a web page.
+Learning Objectives
+    Detail the concept and nature of state and state change
+    Use common methods to manage state in React
+    Describe the hierarchical flow of data in React
+    Describe how data flows in both stateful and stateless components
+    Use an event to dynamically change content on a web page
+    Describe some common errors associated with events and the syntax required to handle them
+
+
+ In React , you can use the onClick event-handling attribute to handle click events.

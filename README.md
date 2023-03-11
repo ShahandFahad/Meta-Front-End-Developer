@@ -30,3 +30,5 @@ By the end, you’ll put your new skills to work by completing a real-world proj
 [ 3: Version Control](https://coursera.org/share/8b4e2a468c1cf5b97c9e52d0ce6d3db0)
 
 [ 4: HTML and CSS in depth](https://coursera.org/share/8ff2581000453e5c1c76c33599a1e59a)
+
+[ 5: React Basics](https://coursera.org/share/d0a48c327fbdd7ef14d201ca1f264f7c)

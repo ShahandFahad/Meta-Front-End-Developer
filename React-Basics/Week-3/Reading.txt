@@ -1,0 +1,8 @@
+In this module you will explore the basics of single and multi-page navigation, as well as the conditional rendering or changing of content in response to user status or choice.
+Learning Objectives
+Use media assets, such as audio and video, with React
+Demonstrate how to manipulate image assets using reference paths
+Explain the folder structure of a React project in terms of embedded or referenced assets
+Demonstrate the conditional implementation and rendering of multiple components
+Create and implement a route in the form of a navbar
+Describe navigation design in React, with a focus on single and multi-page navigation

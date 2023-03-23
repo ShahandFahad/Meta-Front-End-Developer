@@ -65,4 +65,23 @@ False
 True
 
 Correct
-That’s correct. Although item indexes can be used as keys, using indexes as keys can create problems if the order of your list of items is prone to change and can negatively affect performance. Using unique and stable identifiers, such as item IDs, is recommended instead.  
+That’s correct. Although item indexes can be used as keys, using indexes as keys can create problems if the order of your list of items is prone to change and can negatively affect performance. Using unique and stable identifiers, such as item IDs, is recommended instead. 
+
+
+
+Forms in React
+    Controlled components
+        Controlled components come in. Controlled components are a set of components that offer a declarative application programming interface or API to enable full control of the state of form elements at any point in time using React state.
+    Question
+
+You are using controlled components in React in order to have more control over the forms in an application you are creating. 
+
+Which of the following props is used to perform state delegation?   
+
+value
+
+Correct
+That’s correct. State delegation is performed via the value prop. A combination of local state and the value prop is needed to create a controlled component. 
+
+
+To avoid the default form behavior of submitting in React, you must use the event property and call preventDefault.  

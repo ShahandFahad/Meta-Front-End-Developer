@@ -1,0 +1,68 @@
+Learn how to render list and form components efficiently in React, and learn how to lift a shared state up when several components need the updated data.
+Learning Objectives
+Render and transform lists with keys in React.
+Distinguish between controlled and uncontrolled React components.
+Create a controlled form component in React.
+Share component state by lifting state up to the closest common ancestor
+Share global state using React Context
+
+Which of the following is true about the map() method in JavaScript. 
+Select all that apply.
+
+
+Question
+The map() method returns a new array.
+
+Correct
+That’s correct. When using the map() method, you will need to define a new variable, as it always returns a new array.      
+
+
+The map() method is a transformation operation.
+
+Correct
+That’s correct. The map() method in JavaScript is used to transform lists of data.
+
+
+The map() method is useful for handling third party data.
+
+Correct
+That’s correct. Using the map() method in JavaScript to display data fetched from a third party or external provider differently in your app is a common use case of the map() method.
+
+
+Keys in React
+
+Question
+
+Which of the following statements about keys in React are true? Select all that apply.
+
+
+Keys instruct React how to treat a specific element when an update occurs. 
+
+Correct
+That’s correct. Amongst other things, keys instruct React on how to treat a specific element when updates happen.
+
+
+Keys help React determine which items have changed, are added or are removed. 
+
+Correct
+That’s correct. Keys are identifiers that help React determine which items have changed, are added or are removed.
+
+
+Keys instruct React about whether a specific element’s internal state should be preserved or not.
+
+Correct
+That’s correct. Amongst other things, keys instruct React on whether a specific element’s internal state should be preserved when updates happen.
+
+
+Question
+
+True or false: It is recommended to use item indexes as keys when selecting keys for rendered list items.  
+
+
+False
+
+
+True
+
+Correct
+That’s correct. Although item indexes can be used as keys, using indexes as keys can create problems if the order of your list of items is prone to change and can negatively affect performance. Using unique and stable identifiers, such as item IDs, is recommended instead.  

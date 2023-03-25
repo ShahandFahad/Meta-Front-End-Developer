@@ -85,3 +85,50 @@ That’s correct. State delegation is performed via the value prop. A combinatio
 
 
 To avoid the default form behavior of submitting in React, you must use the event property and call preventDefault.  
+
+
+Props vs States
+ Props get passed to the component like parameters in a function where state is managed within the component like variables declared within a function. 
+ So state is a serialize double representation of one point in time or in other words a snapshot A component manages its own state internally, You could also say the state is private. 
+
+ Question
+
+Which of the following statements are true about state in React? Select all that apply.
+
+
+State is a component's configuration.  
+
+
+  
+
+Correct
+That’s correct. State is managed within the component, whereas props get passed to the component.  
+
+
+Attributes a component needs to change at some point in time shouldbe part of its state.  
+
+Correct
+That’s correct. If a component needs to alter one of its attributes at somepoint in time, that attribute should be part of its state, otherwise, it should be a prop for that component.  
+
+
+State is a plain JavaScript object that React uses to hold information.  
+
+Correct
+That’s correct. State and props are both plain JavaScript or JS objects that React uses to hold information.
+
+
+Question
+
+Which of the following is true about the Context API? Select all that apply.  
+
+
+Context was introduced by React as a way to resolve the props drillingproblem.  
+
+Correct
+That’s correct. React solved the problem of parent components having to drilldown props all the way to the children that need to consume them byintroducing the Context API.  
+
+
+ Context should be used when you need to share global data.   
+
+Correct
+That’s true. Context is useful for global state. It is the right tool when you needto share data that can be considered global for a tree of React components.  

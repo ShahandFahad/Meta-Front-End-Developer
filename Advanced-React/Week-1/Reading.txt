@@ -1,0 +1,134 @@
+Learn how to render list and form components efficiently in React, and learn how to lift a shared state up when several components need the updated data.
+Learning Objectives
+Render and transform lists with keys in React.
+Distinguish between controlled and uncontrolled React components.
+Create a controlled form component in React.
+Share component state by lifting state up to the closest common ancestor
+Share global state using React Context
+
+Which of the following is true about the map() method in JavaScript. 
+Select all that apply.
+
+
+Question
+The map() method returns a new array.
+
+Correct
+That’s correct. When using the map() method, you will need to define a new variable, as it always returns a new array.      
+
+
+The map() method is a transformation operation.
+
+Correct
+That’s correct. The map() method in JavaScript is used to transform lists of data.
+
+
+The map() method is useful for handling third party data.
+
+Correct
+That’s correct. Using the map() method in JavaScript to display data fetched from a third party or external provider differently in your app is a common use case of the map() method.
+
+
+Keys in React
+
+Question
+
+Which of the following statements about keys in React are true? Select all that apply.
+
+
+Keys instruct React how to treat a specific element when an update occurs. 
+
+Correct
+That’s correct. Amongst other things, keys instruct React on how to treat a specific element when updates happen.
+
+
+Keys help React determine which items have changed, are added or are removed. 
+
+Correct
+That’s correct. Keys are identifiers that help React determine which items have changed, are added or are removed.
+
+
+Keys instruct React about whether a specific element’s internal state should be preserved or not.
+
+Correct
+That’s correct. Amongst other things, keys instruct React on whether a specific element’s internal state should be preserved when updates happen.
+
+
+Question
+
+True or false: It is recommended to use item indexes as keys when selecting keys for rendered list items.  
+
+
+False
+
+
+True
+
+Correct
+That’s correct. Although item indexes can be used as keys, using indexes as keys can create problems if the order of your list of items is prone to change and can negatively affect performance. Using unique and stable identifiers, such as item IDs, is recommended instead. 
+
+
+
+Forms in React
+    Controlled components
+        Controlled components come in. Controlled components are a set of components that offer a declarative application programming interface or API to enable full control of the state of form elements at any point in time using React state.
+    Question
+
+You are using controlled components in React in order to have more control over the forms in an application you are creating. 
+
+Which of the following props is used to perform state delegation?   
+
+value
+
+Correct
+That’s correct. State delegation is performed via the value prop. A combination of local state and the value prop is needed to create a controlled component. 
+
+
+To avoid the default form behavior of submitting in React, you must use the event property and call preventDefault.  
+
+
+Props vs States
+ Props get passed to the component like parameters in a function where state is managed within the component like variables declared within a function. 
+ So state is a serialize double representation of one point in time or in other words a snapshot A component manages its own state internally, You could also say the state is private. 
+
+ Question
+
+Which of the following statements are true about state in React? Select all that apply.
+
+
+State is a component's configuration.  
+
+
+  
+
+Correct
+That’s correct. State is managed within the component, whereas props get passed to the component.  
+
+
+Attributes a component needs to change at some point in time shouldbe part of its state.  
+
+Correct
+That’s correct. If a component needs to alter one of its attributes at somepoint in time, that attribute should be part of its state, otherwise, it should be a prop for that component.  
+
+
+State is a plain JavaScript object that React uses to hold information.  
+
+Correct
+That’s correct. State and props are both plain JavaScript or JS objects that React uses to hold information.
+
+
+Question
+
+Which of the following is true about the Context API? Select all that apply.  
+
+
+Context was introduced by React as a way to resolve the props drillingproblem.  
+
+Correct
+That’s correct. React solved the problem of parent components having to drilldown props all the way to the children that need to consume them byintroducing the Context API.  
+
+
+ Context should be used when you need to share global data.   
+
+Correct
+That’s true. Context is useful for global state. It is the right tool when you needto share data that can be considered global for a tree of React components.  

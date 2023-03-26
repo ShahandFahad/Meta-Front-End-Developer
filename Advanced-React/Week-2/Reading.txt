@@ -1,0 +1,43 @@
+Learn to use all the common hooks in React, and how to put them to use within your application. Then, build your own custom hooks.
+Learning Objectives
+Explain the uses and purpose of React hooks.
+Use the useState hook to declare, read and update the state of a component.
+Use the useEffect hook to perform side-effects within a React component.
+Use hooks to fetch data in React.
+Create appropriate custom hooks in React.
+
+Question
+
+Which of the following is true about the useState hook? 
+
+Select all that apply.   
+
+
+The useState hook’s return value in React is the array data structure.  
+
+Correct
+That’s correct. The invocation of the useState hook returns an array.  
+
+
+The useState hook allows you to work with state in components.   
+
+Correct
+That’s correct. The useState hook is used to work with state in a React component.  
+
+
+The useState hook invocation returns a two-member array.   
+
+Correct
+That’s correct. When calling the useState() hook, the returned array holds the state variable's value asthe first item of that array and the function that will be used to update the stateas the second item of that returned array.  
+
+
+When using the useState hook, you must use the state-updating function to update state.   
+
+Correct
+That’s correct. There is only one correct way to update state when using useState and that’s through the state-updating function
+
+
+Side Effect, Pure and Impure function
+A side effect is something that makes a function in pure. Did you know that functions can be classified as pure and impure simply put pure functions don't have side effects.
+
+The correct way to add a side effect functionality is to use the useEffect function.  

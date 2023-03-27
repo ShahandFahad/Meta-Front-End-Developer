@@ -1,0 +1,95 @@
+Solution: Create your own custom hook, usePrevious
+Your task was to complete the custom hook named usePrevious so that the h1 heading shows both the current day and the previous current day before the update. 
+
+Here is the completed solution code for the App.js file:
+
+import { useState, useEffect, useRef } from "react";
+export default function App() {
+  const [day, setDay] = useState("Monday");
+  const prevDay = usePrevious(day);
+  const getNextDay = () => {
+    if (day === "Monday") {
+      setDay("Tuesday")
+    } else if (day === "Tuesday") {
+      setDay("Wednesday")
+    } else if (day === "Wednesday") {
+      setDay("Thursday")
+    } else if (day === "Thursday") {
+      setDay("Friday")
+    } else if (day === "Friday") {
+      setDay("Monday")
+    }
+  }
+  return (
+    <div style={{padding: "40px"}}>
+      <h1>
+        Today is: {day}<br />
+        {
+          prevDay && (
+            <span>Previous work day was: {prevDay}</span>
+          )
+        }
+      </h1>
+      <button onClick={getNextDay}>
+        Get next day
+      </button>
+    </div>
+  );
+}
+function usePrevious(val) {
+  const ref = useRef();
+  useEffect(() => {
+    ref.current = val;
+  }, [val]);
+  return ref.current;
+}
+
+Steps
+Step 1
+You should have located the usePrevious() function.
+
+function usePrevious(val) {
+
+}
+
+Inside the usePrevious() function's code block, you needed to invoke the useRef hook without any arguments, and assign this invocation to a variable named ref, declared using the const keyword.
+
+function usePrevious(val) {
+const ref = useRef();
+}
+
+Step 2
+Next, inside the usePrevious() function declaration, you needed to add a call to the useEffect() hook.
+
+function usePrevious(val) {
+const ref = useRef();
+useEffect();
+}
+
+
+Step 3
+Then, you needed to pass two parameters as argumentsto the useEffect() function call.
+
+The first parameter should have been an arrow function, without any arguments. Inside the arrow function's body, you should have assigned the val value to the current property on the ref object.
+
+The second parameter needed to be the dependencies array. The dependencies array needed to list a single variable - namely, the val variable.
+
+function usePrevious(val) {
+const ref = useRef();
+useEffect(() => {
+ref.current = val;
+    }, [val]);
+}
+
+Step 4
+You needed to add one more line to the body of the usePrevious() function declaration, to specify the return value of that function.
+
+The usePrevious() function should have returned the ref.current value, as follows:
+
+function usePrevious(val) {
+const ref = useRef();
+useEffect(() => {
+ref.current = val;
+    }, [val]);
+return ref.current;
+}

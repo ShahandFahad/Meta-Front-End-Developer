@@ -41,3 +41,33 @@ Side Effect, Pure and Impure function
 A side effect is something that makes a function in pure. Did you know that functions can be classified as pure and impure simply put pure functions don't have side effects.
 
 The correct way to add a side effect functionality is to use the useEffect function.  
+
+
+Rules of Hooks
+    1. First, you should only call hooks from a React component function.
+    2. Second, you should only call hooks at the top level of a React component function. 
+    3. Third, you are allowed to call multiple state hooks or effect hooks inside a component. 
+    4. And finally, always make these multiple hook calls in the same sequence. 
+
+
+Fetch function
+    Fetch is used to make a server requests to retrieve some JSON data from it. 
+Fetch API
+    Fetch API is a set of functionalities that we have at our disposal to use in JavaScript to make such a server request. 
+    It's a bit like a clerk at the post office. Say you're bringing a package to the post office and you're the first in the queue. The clerk on the other side of the service desk is JavaScript. Since they can only do one thing at a time.
+
+
+Which of the below statements is an accurate description of JavaScript utilizing the fetch function?
+
+
+    When JavaScript uses the fetch function it is delegating duties to an external API so that it can continue its process. This is known as asynchronous JavaScript.  
+
+    Correct
+    That’s correct. The fetch function utilizes external APIs to perform tasks that would be cumbersome for JavaScript to fulfil alone.
+
+
+
+Use Rducer Hook
+    The useReducer hook starts with an initial state and reducer function   
+Use Ref Hook
+    The returned value from the useRef hook invocation is an object.  

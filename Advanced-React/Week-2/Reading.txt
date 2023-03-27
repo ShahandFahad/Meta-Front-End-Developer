@@ -64,3 +64,10 @@ Which of the below statements is an accurate description of JavaScript utilizing
 
     Correct
     That’s correct. The fetch function utilizes external APIs to perform tasks that would be cumbersome for JavaScript to fulfil alone.
+
+
+
+Use Rducer Hook
+    The useReducer hook starts with an initial state and reducer function   
+Use Ref Hook
+    The returned value from the useRef hook invocation is an object.  

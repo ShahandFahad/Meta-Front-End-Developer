@@ -1,0 +1,138 @@
+Understand JSX in depth and discover advanced patterns to encapsulate common behaviour via higher-order components and render props. Then, learn how to test and debug your application.
+Learning Objectives
+Define the types of children within JSX
+Use JSX to apply React component composition with children.
+Describe the process and purpose of creating higher-order components.
+Describe the process and purpose of creating render props.
+Write a test for a React application using Jest and React Testing Library.
+
+
+JSX
+    JSX is a syntax extension to JavaScript that React uses to describe what the UI should look like. However, even though JSX looks like HTML, it's essentially a more powerful abstraction that combines both markup and business logic into an entity called a component.
+
+Question
+
+Which of the examples below are valid types for Elements? Select all that apply. 
+
+
+type: "button"  
+
+Correct
+That’s correct. This is an example of how React specifies a ‘type’ attribute when performing a tree transformation with simple DOM nodes.  
+
+
+type: "div"  
+
+Correct
+That’s correct. This is an example of how React specifies a type attribute when performing a tree transformation with simple DOM nodes.  
+
+type: DeleteButton
+
+Where DeleteButton is a React component.
+
+Correct
+That’s correct. React would identify a component named DeleteButton as a function and ask that component what element it renders to, with the given props.  
+
+
+Component Composition 
+    1. Containment: Containment refers to the fact that some components don't know their children ahead of time.
+    2. Specialization: Specialization defines components as being “special cases” of other components.
+
+
+Question
+Which of the statements below clearly states the definitions of Containment and Specialization? Select all that apply.  
+
+
+Containment refers to the fact that some components don’t know their children ahead of time.   
+
+Correct
+That’s correct! Containment refers to the fact that some components don’t know their children ahead of time. And can also be described as generic boxes, like a Dialog or Alert.  
+
+
+Specialization defines components as being “special cases” of other components.  
+
+Correct
+That’s correct! Specialization defines components as being “special cases” ofother components. For example, the ConfirmationDialog is a special case of Dialog.  
+
+
+
+Manipulating children dynamically in JSX
+    How to use both of these react APIs and how they can be used to manipulate the Render Output dynamically.
+        1. React.cloneElement
+            This API is useful to allow a parent to perform the following operations; 
+            modify children properties, 
+            add to children properties and 
+            extend the functionality of children components.
+        2. React.children
+            Another important top-level API useful for children manipulation is react.children, which provides utilities for dealing with the props.children data structure. The most important method is the map function. React.children.map is very similar to the map function from arrays and invokes a function in every child contained within its children prop, performing a transformation and returning a new element.
+
+
+Question
+
+Which of the following operations does the React.cloneElementAPI enable a parent to perform? Select all that apply.  
+
+
+Transform React props directly  
+
+
+Correct
+That’s correct! Props in React are immutable objects, so onceReact.cloneElement has created a copy of the element it can then add to the childrens properties in the copy.  
+
+
+Modify children properties  
+
+Correct
+That’s correct! Props in React are immutable objects, so onceReact.cloneElement has created a copy of the element it can then modify the childrens properties in the copy.  
+
+
+Extend the functionality of children components  
+
+Correct
+That’s correct! Props in React are immutable objects, so onceReact.cloneElement has created a copy of the element it can then extend the functionality of the children components.  
+
+
+Spread Operators
+    Copying and Merging performed with these Operators
+
+    The spread operator can be applied to different data types in JavaScript such as arrays, objects and even strings.
+
+    const object = {prop1: '', prop2: ''}
+
+    const cloneObj = {...object} // copy object
+    const amendObj = {...object, prop3: ''} // add extra properties
+
+Spread in React
+    function OrderList() {
+        const order = {
+            name: 'Pizza',
+            price: '10$',
+            type: 'Large',
+        }
+
+        return (
+            <Order {...order} /> // instead of typing all props, use spread operator
+        );
+    }
+
+
+
+Question
+
+A simple welcome screen for Little Lemon restaurant has been built, where users are able to sign up or login, depending on whether they have an account or not. The App component renders two buttons and uses the Button component for the sign up and the LoginButton component for log in.  
+
+Both buttons make use of the onClick handler, to show an alert about the intended action when they are pressed. 
+
+The same alert message that has been provided for Sign up, is used on the LoginButton component, hence overriding the onClick handler that the LoginButton already defines internally. 
+
+What would the message of the alert be when the Sign up button is clicked? 
+
+  
+
+
+Logging in
+
+
+Signing up  
+
+Correct
+That’s right! Even though the onClickprop in the LoginButtoncomponent is overridden, its implementation prevents that overriding from happening, due to the order of the spread operator.  

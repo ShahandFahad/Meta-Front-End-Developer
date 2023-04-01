@@ -1,0 +1,37 @@
+const Button = ({type, children, ...buttonProps}) => {
+  const className = type === "primary" ? 'PrimaryButton' : 'SecondryButton';
+
+  return (
+    <button className={`Button ${className}`} {...buttonProps}>
+      {children}
+    </button>
+  );
+}
+const LogInButton = ({type, children, ...buttonProps}) => {
+  return (
+    <Button
+    type="secondry"
+    {...buttonProps}
+    onClick={() => alert('Loggin In!')}
+    >
+      {children}
+    </Button>
+  );
+}
+
+
+export default function App() {
+  const list = ['IS', 'SF', 'IQSF', '</3'];
+  return (
+    <div>
+      <>
+        <Button type="primary" onClick={() => alert('Signing UP!')}>
+          Sign Up
+        </Button>
+        <LogInButton type="secondry" onClick={() => alert('Signing UP!')}>
+          Login
+        </LogInButton>
+      </>
+    </div>
+  )
+};

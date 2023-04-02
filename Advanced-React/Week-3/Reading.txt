@@ -178,3 +178,53 @@ That’s correct! The with part of the HOC name is a general convention recommen
 
 Render Props
     A component with a render prop takes a function that returns a react element and calls that function inside its render logic.
+
+
+Why React Testing Library?
+    Discover Bugs,
+    Ensure Quality
+
+    Best Practices
+        1. Avoid including implementation detalis
+        2. Work with DOM nodes
+        3. Resemble software usage
+        4. Maintainability
+    Tools
+        1. Jest
+            Jest is a JavaScript test runner that lets you access an artificial DOM called JSDOM. While JSDOM is only an approximation of how the browser works, it is often good enough for testing React components. Jest provides a good iteration speed combined with powerful features like mocking modules, so you can have more control over how the code executes. 
+        2. Jest Tesitng Library
+            Jest is React Testing Library, which is a set of utilities that let you test React components without relying on their implementation details. React Testing Library has been designed to fulfill all the best practices highlighted before, so that you get a well-configured testing environment out of the box, and are able to focus on the business logic your tests need to run assertions on.
+
+
+Question
+
+Which of the following statements are true about Jest and React Testing Library tool? Select all that apply.  
+
+
+React Testing Library is a set of utilities that let you test React components without relying on their implementation details.   
+
+Correct
+That’s correct! React Testing Library is designed to fulfill all testing best practices out of the box, so that you are able to focus on the business logic your tests need to run assertions on.  
+
+
+Jest is a JavaScript test runner that lets you access an artificial DOM,which provides an approximation of how the browser works.  
+
+Correct
+That’s correct! Jest is a JavaScript test runner that lets you access an artificial DOM called jsdom. While jsdom is only an approximation of how the browser works, it is often good enough for testing React components.  
+
+
+Question
+
+When writing a part of your test to locate the range input and fill it with a value, which functions do you need to use?   
+
+
+fireEvent.change()
+
+Correct
+That’s correct. To fill the input and update the state with a value, you can use the fireEvent.change() utility from React Testing Library.  
+
+
+screen.getByLabelText  
+
+Correct
+That’s correct. Screen.getByLabelText asks the root document to find a label tag whose text contains a specified text value and then return the input element associated with that label.  

@@ -136,3 +136,45 @@ Signing up
 
 Correct
 That’s right! Even though the onClickprop in the LoginButtoncomponent is overridden, its implementation prevents that overriding from happening, due to the order of the spread operator.  
+
+
+Cross-cutting concerns in React
+     For example, think about managing different permission roles, handling errors, or even logging. They are all required for any application, but are not necessary from the business point of view. This group of functionality is what falls into the category of cross-cutting concerns.
+
+HOC (Higher Order Component)
+    Takes a component and returns new component.
+    Transform a component into another component.
+
+    Question
+
+A higher order component (HOC), is an advanced pattern that emerges from React’s compositional nature. 
+
+What are some of the benefits of using a HOC in your solution? 
+
+  
+
+
+It enhances or extends the capabilities of the component provided.  
+
+Correct
+That’s correct. A HOC transforms a component into another component. In other words, it enhances or extends the capabilities of the component provided.    
+
+
+You can define logic in a single place, share it across many components, and keep them unchanged and stateless.  
+
+Correct
+That’s correct. A HOC transforms a component into another component. In other words, it enhances or extends the capabilities of the component provided.  
+
+
+Question
+
+When defining a HOC, such as withMousePosition, why is the with part of the HOC name a general convention recommended by React?  
+
+
+It expresses the enhancing nature of the technique.
+
+Correct
+That’s correct! The with part of the HOC name is a general convention recommended by React, as it expresses the enhancing nature of the technique, like providing a component ‘with’ something else.  
+
+Render Props
+    A component with a render prop takes a function that returns a react element and calls that function inside its render logic.

@@ -17,10 +17,6 @@ In this program, you’ll learn:
 
 By the end, you’ll put your new skills to work by completing a real-world project where you’ll create your own front-end web application. Any third-party trademarks and other intellectual property (including logos and icons) referenced in the learning experience remain the property of their respective owners. Unless specifically identified as such, Coursera’s use of third-party intellectual property does not indicate any relationship, sponsorship, or endorsement between Coursera and the owners of these trademarks or other intellectual property.
 
-#
-
-#
-
 ## Certificates
 
 [ 1: Introduction to Front-End Development](https://coursera.org/share/73f483b63bc0f1b19f32badff052ef0d)
@@ -32,3 +28,5 @@ By the end, you’ll put your new skills to work by completing a real-world proj
 [ 4: HTML and CSS in depth](https://coursera.org/share/8ff2581000453e5c1c76c33599a1e59a)
 
 [ 5: React Basics](https://coursera.org/share/d0a48c327fbdd7ef14d201ca1f264f7c)
+
+[ 6: Advanced React](https://coursera.org/share/7456bfd176e3845bf7df4fb127245c57)

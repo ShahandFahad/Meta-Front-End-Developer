@@ -1,0 +1,101 @@
+Learn about what constitutes successful UI and evaluate existing interfaces for design consistency and quality.
+Learning Objectives
+Define the purpose and goals of user experience design.
+Define the purpose and goals of user interface design.
+Set up a Figma account.
+Navigate the Figma interface.
+Recognize common empathy methodolgies and tools.
+Create a user persona in Figma.
+
+What is UX?
+    UX means user experience. It includes everything related to all the interactions that a user has with a company, its services and products.
+
+UX goals + Quality components
+    Usability
+        Usability gauges how intuitive or easier product is to use
+
+         Five usability components. They are, 
+            1. Learnability, 
+            2. Efficiency, 
+            3. Memorability, 
+            4. Errors, and 
+            5. Satisfaction.
+
+Question
+
+You are redesigning the Little Lemon website and you want to make sure that you prevent users from doing things they shouldn’t. And if they end up making a mistake, you want users to be able to fix it easily. Which UX usability component is best described above? 
+
+Errors
+
+Correct
+That’s right. Good usability tries to prevent errors from happening and provide an easy way of fixing mistakes.  
+
+
+Overview of the UX process
+    UX is a very process driven discipline. 
+    The five stages of the UX process are 
+    1. Empathize, 
+    2. Define 
+    3. Ideate 
+    4. Prototype and 
+    5. Test. 
+
+
+What is UI?
+     A graphical user interface or GUI presents interactive visual components people can interact with on-screen to communicate with technology. For consistency, we refer to it as a UI. 
+
+
+Question
+
+Which of the following is part of the UI of a digital product? Select all that apply.   
+
+
+The colors
+
+Correct
+Yes. The colors are part of the UI.  
+
+
+What happens when you click something  
+
+Correct
+Yes. What response you get when you click something is part of the UI.  
+
+
+The icons
+
+Correct
+Yes. The icons are part of the UI.  
+
+
+How information is laid out   
+
+Correct
+Yes. How information is laid out is part of the UI.  
+
+
+The text
+
+Correct
+Yes. The text is part of the UI.
+
+
+User-centered design
+    User research
+     Users who gave their consent to be interviewed and observed while they were using it. This information gathering is called user research.
+
+
+Question
+Does a customer journey map show the steps someone takes to complete a task?  
+Yes
+Correct
+It presents the steps someone takes to complete a given task. It can also identify their emotions along the steps as you track the UX Goals.   
+
+
+Question
+Is the persona a real person?  
+
+No
+
+Correct
+The user persona is a fictional character profile that represents the main clientele of a company. It's a realistic model of the people you are seeking to assist.  

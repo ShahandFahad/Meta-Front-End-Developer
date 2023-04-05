@@ -33,7 +33,12 @@ That’s right. Good usability tries to prevent errors from happening and provid
 
 Overview of the UX process
     UX is a very process driven discipline. 
-    The five stages of the UX process are empathize, define ideate prototype and test. 
+    The five stages of the UX process are 
+    1. Empathize, 
+    2. Define 
+    3. Ideate 
+    4. Prototype and 
+    5. Test. 
 
 
 What is UI?
@@ -73,3 +78,24 @@ The text
 
 Correct
 Yes. The text is part of the UI.
+
+
+User-centered design
+    User research
+     Users who gave their consent to be interviewed and observed while they were using it. This information gathering is called user research.
+
+
+Question
+Does a customer journey map show the steps someone takes to complete a task?  
+Yes
+Correct
+It presents the steps someone takes to complete a given task. It can also identify their emotions along the steps as you track the UX Goals.   
+
+
+Question
+Is the persona a real person?  
+
+No
+
+Correct
+The user persona is a fictional character profile that represents the main clientele of a company. It's a realistic model of the people you are seeking to assist.  

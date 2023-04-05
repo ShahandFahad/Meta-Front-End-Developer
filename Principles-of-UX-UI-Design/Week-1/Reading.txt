@@ -7,3 +7,29 @@ Navigate the Figma interface.
 Recognize common empathy methodolgies and tools.
 Create a user persona in Figma.
 
+What is UX?
+    UX means user experience. It includes everything related to all the interactions that a user has with a company, its services and products.
+
+UX goals + Quality components
+    Usability
+        Usability gauges how intuitive or easier product is to use
+
+         Five usability components. They are, 
+            1. Learnability, 
+            2. Efficiency, 
+            3. Memorability, 
+            4. Errors, and 
+            5. Satisfaction.
+
+Question
+
+You are redesigning the Little Lemon website and you want to make sure that you prevent users from doing things they shouldn’t. And if they end up making a mistake, you want users to be able to fix it easily. Which UX usability component is best described above? 
+
+Errors
+
+Correct
+That’s right. Good usability tries to prevent errors from happening and provide an easy way of fixing mistakes.  
+
+
+Overview of the UX process
+    UX is a very process driven discipline. 

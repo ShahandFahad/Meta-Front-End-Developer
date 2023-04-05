@@ -33,3 +33,43 @@ That’s right. Good usability tries to prevent errors from happening and provid
 
 Overview of the UX process
     UX is a very process driven discipline. 
+    The five stages of the UX process are empathize, define ideate prototype and test. 
+
+
+What is UI?
+     A graphical user interface or GUI presents interactive visual components people can interact with on-screen to communicate with technology. For consistency, we refer to it as a UI. 
+
+
+Question
+
+Which of the following is part of the UI of a digital product? Select all that apply.   
+
+
+The colors
+
+Correct
+Yes. The colors are part of the UI.  
+
+
+What happens when you click something  
+
+Correct
+Yes. What response you get when you click something is part of the UI.  
+
+
+The icons
+
+Correct
+Yes. The icons are part of the UI.  
+
+
+How information is laid out   
+
+Correct
+Yes. How information is laid out is part of the UI.  
+
+
+The text
+
+Correct
+Yes. The text is part of the UI.

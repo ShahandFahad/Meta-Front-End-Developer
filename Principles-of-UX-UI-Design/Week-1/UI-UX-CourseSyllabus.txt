@@ -1,0 +1,119 @@
+UX UI Course syllabus
+This is a beginner course for learners who would like to prepare themselves for a career in UX and UI design. To succeed in this course, you do not need prior development experience, only basic internet navigation skills and an eagerness to learn. 
+
+The course introduces you to digital User Experience (UX) and User Interface (UI) design on a foundational level. You will learn about the fundamentals of UX and UI design that are core to the success of any website.  
+
+By the end of this course you will be able to: 
+
+Design digital products that create value and solve a user's problems in meaningful ways. 
+
+Recognize what constitutes successful UX and UI and evaluate existing interfaces for design consistency and quality
+
+ Identify best practice interaction design methods and evaluate and improve your own and others' designs
+
+ Create, share and test your UX and UI designs following best practice guidelines 
+
+The course is structured around restaurateurs Adrian and Mario's issue with their Little Lemon restaurant website. The website was designed and coded without UX or UI principles applied to the online elements of ordering food for delivery and reserving a table in the restaurant.   
+
+Each week intends to equip you with the knowledge and skills needed to guide you through the process of UX and UI methodologies to resolve various UX and UI issues. 
+
+Week 1: Introduction to UX and UI
+In the first week, you will start with an overview of UX. You will explore the UX process, personas, scenarios and user stories. This leads you to an overview of what UI is. You will then set up your Figma account to start using Figma. But before progressing with using Figma, you will determine who your users are. This will lead right into the Little Lemon scenario, where you encounter Adrian and his brother Mario. They would like you to assist them with some UX and UI issues they are experiencing on their website. Your first step in resolving some of these issues is learning how to create a user persona. 
+
+After completing the lesson items, you will be able to:
+
+Differentiate between UX and UI design. 
+
+Define UX goals and explain its quality components. 
+
+Explain the UX process. 
+
+Evaluate interactive designs and create a modern user interface. 
+
+Explain the concepts of the UI component of UX and describe its history. 
+
+Identify applications of UI. 
+
+Recognize the importance of successful UI design. 
+
+Create a Figma account. 
+
+Identify how to use user interviews and observations. 
+
+Explore a customer journey map. 
+
+Identify tools in user research. 
+
+Describe the role of user research tools in the empathize stage.
+
+Week 2: Evaluating Interactive Design
+Next week, you will learn how to evaluate and practice interactive design methods. You will learn how to assess and improve your design and those of other designers. You will discover standard evaluation methodologies and use appropriate evaluation techniques to evaluate these designs. You will also learn to recognize best practices when designing forms and explore component design principles. 
+
+After completing the lesson items, you will be able to:
+
+Describe popular evaluation methodologies. 
+
+Explain how the evaluation methodologies can be applied to improve your designs. 
+
+Explain the importance of good form design. 
+
+Implement best practices to strengthen form design. 
+
+Evaluate a website. 
+
+Use evaluation methods and interface guidelines. 
+
+Evaluate your content and structure based on usability. 
+
+Explain navigation best practices. 
+
+Week 3: Applied Design Fundamentals
+After familiarizing yourself with different methods to evaluate your design, you will explore what makes a user interface successful. You will also assess existing interfaces for design consistency and quality. You will work with frames, layers, shapes and images in Figma and describe the purpose of iterative design. Finally, you will create a wireframe in Figma.
+
+After completing the lesson items, you will be able to:
+
+Explore how to use the layers panel in Figma. 
+
+Identify how to duplicate, scale, group and align elements. 
+
+Create a responsive grid system. 
+
+Describe the concepts of wireframing. 
+
+Design wireframes using Figma. 
+
+Define usability testing. 
+
+Describe the different types of usability testing. 
+
+Week 4: Designing your UI
+Next week, you will learn how to design your user interface (UI). You will also create, share and test your user interface using best practices. You will discover how to create high-fidelity user interface elements and be able to explain the importance of design systems. You will also apply advanced user interface techniques in Figma.
+
+After completing the lesson items, you will be able to:
+
+Recognize how to use images, colors and shapes. 
+
+Explain the role of images, colors and shapes in design. 
+
+Name and explain what design systems and UI kits are. 
+
+Differentiate between design systems and UI kits. 
+
+Explain best practice design for design systems and UI kits. 
+
+Explain what atomic design is. 
+
+Create interactive prototypes using high-fidelity designs. 
+
+Describe how these prototypes are animated and shared.
+
+Week 5: Graded Assessment
+In the final week, you'll apply the skills you gained from the course to prepare a paper prototype wireframe for a new table reservation flow in Figma. You will then move on to complete the final graded assessment. After that, you will have the opportunity to reflect on the course content and review the learning path. 
+
+After completing the project exercises, you will be able to:  
+
+Create a paper prototype wireframe. 
+
+Design a prototype for a new table reservation flow in Figma. 
+
+Write a test script based on your wireframe and prototype.

@@ -1,0 +1,9 @@
+Learn about what constitutes successful UI and evaluate existing interfaces for design consistency and quality.
+Learning Objectives
+Define the purpose and goals of user experience design.
+Define the purpose and goals of user interface design.
+Set up a Figma account.
+Navigate the Figma interface.
+Recognize common empathy methodolgies and tools.
+Create a user persona in Figma.
+

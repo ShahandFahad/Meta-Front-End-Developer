@@ -1,0 +1,14 @@
+Be able to understand best practice interaction design methods and evaluate and improve your own and others designs
+Learning Objectives
+Recognize common evaluation methodologies
+Identify and use appropriate evaluation techniques
+Recognize best practice form and component design principles.
+
+Evaluating design 
+    1.   Dieter Rams and his 10 “Good design” principles. 
+    2.  Jacob Nielsen's 10 usability heuristics for user interface design. (Jakob Nielsen and   his 10 “Good design” principles. )
+    3.  Ben Shneiderman's eight golden rules of interface design. It is named the Schneiderman evaluation. 
+
+     All of these are specifically relevant to human computer interaction, also called HCI. 
+
+     

@@ -11,4 +11,41 @@ Evaluating design
 
      All of these are specifically relevant to human computer interaction, also called HCI. 
 
-     
+
+
+     Question
+
+As a UX UI designer, which of the following do you think is important when designing a form? Select all that apply.
+
+  
+
+
+There must be clear instructions to complete the form and a password strength indicator.  
+
+Correct
+Correct! The form must provide clear instructions with a strength indicator giving the user immediate feedback on theirchoice.  
+
+
+The language must be clear and specific.
+
+Correct
+Correct! The language should also be clear and specific to whatever section of the form the user is currently in.  
+
+
+Space the inputs on the form more consistently
+
+Correct
+Correct! By spacing these inputs more consistently, the user can see that each is unique and what label refers to each input.
+
+  
+
+
+Question
+
+A design system is a set of reusable pre-made design components and patterns that can be used to design products at scale.   
+
+
+True
+
+Correct
+Correct! A design system is set of reusable pre-made design components and patterns that can be used to design products at scale, for example, Google's Material Design and IBMs Carbon Design sytem.

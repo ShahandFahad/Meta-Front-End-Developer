@@ -1,0 +1,104 @@
+Be able to understand best practice interaction design methods and evaluate and improve your own and others designs
+Learning Objectives
+Recognize common evaluation methodologies
+Identify and use appropriate evaluation techniques
+Recognize best practice form and component design principles.
+
+Evaluating design 
+    1.   Dieter Rams and his 10 “Good design” principles. 
+    2.  Jacob Nielsen's 10 usability heuristics for user interface design. (Jakob Nielsen and   his 10 “Good design” principles. )
+    3.  Ben Shneiderman's eight golden rules of interface design. It is named the Schneiderman evaluation. 
+
+     All of these are specifically relevant to human computer interaction, also called HCI. 
+
+
+
+     Question
+
+As a UX UI designer, which of the following do you think is important when designing a form? Select all that apply.
+
+  
+
+
+There must be clear instructions to complete the form and a password strength indicator.  
+
+Correct
+Correct! The form must provide clear instructions with a strength indicator giving the user immediate feedback on theirchoice.  
+
+
+The language must be clear and specific.
+
+Correct
+Correct! The language should also be clear and specific to whatever section of the form the user is currently in.  
+
+
+Space the inputs on the form more consistently
+
+Correct
+Correct! By spacing these inputs more consistently, the user can see that each is unique and what label refers to each input.
+
+  
+
+
+Question
+
+A design system is a set of reusable pre-made design components and patterns that can be used to design products at scale.   
+
+
+True
+
+Correct
+Correct! A design system is set of reusable pre-made design components and patterns that can be used to design products at scale, for example, Google's Material Design and IBMs Carbon Design sytem.
+
+
+Question
+
+The current Little Lemon website design, based on all of Tilly’s feedback, violates Ram’s, Nielsen’s and Schneiderman’s design methodologies. How does the Little Lemon website violate Rams 10 principles of good design? Check all that apply.
+
+  
+
+
+Makes a product useful.  
+
+Correct
+Correct! The current Little Lemon website design violates Rams principle number 2 “Makes a product useful.”.  
+
+
+Makes a product understandable 
+
+Correct
+Correct! The current Little Lemon website design violates Rams principle number 4 “Makes a product understandable.”  
+
+
+Is thorough to the last detail.  
+
+Correct
+Correct! The current Little Lemon website design violates Rams principle number 8 “Is thorough to the last detail.”  
+
+
+Is aesthetic.  
+
+Correct
+Correct! The current Little Lemon website design violates Rams principle number 3 “Is aesthetic.”  
+
+
+Content Strategy
+Content strategy involves presenting the content on your website in a meaningful way that will promote your products. And it helps to align your client's business and UX goals. It also assists in aligning your content around your personas and scenarios. 
+
+A broad rule of thumb is to think about structuring your content under the headings of prioritization, which is how you determine your content and its relevance to your users. 
+
+Next is organization. This is the framework for grouping labeling and other related content so that users can find what matters to them. 
+
+Then, presentation is how pieces of content are assembled to form what a user sees. 
+
+The final one is specifications, which is the content requirements for each content piece.
+
+
+Question
+
+Content design involves presenting the content on your website in a meaningful way that will promote your products. It helps to align your client’s business and UX goals and assists in aligning your content around your personas and scenarios. 
+
+True
+
+Correct
+Correct! Content design involves presenting the content on your website in a meaningful way that will promote your products. It helps to align your client’s business and UX goals and it also assists in aligning your content around your personas and scenarios.   

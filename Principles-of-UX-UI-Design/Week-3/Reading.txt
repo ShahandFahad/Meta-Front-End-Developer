@@ -1,0 +1,27 @@
+Applied Desing Fundamentals
+    
+Learn what constitutes successful UI and evaluate existing interfaces for design consistency and quality.
+Learning Objectives
+Work with frames, layers, shapes and images in Figma
+Describe the purpose and process of iterative design.
+Create a wireframe in Figma.
+Recognize and apply best practice UI design principles.
+Create a usability test.
+
+Frames, layers and basic shapes
+
+Question
+
+In Figma, frames and groups are the same.  
+
+No
+
+Correct
+They both help organize your file by nesting or grouping layers together. However, frames supply a lot more functionality like independent sizing.
+
+
+Wireframing
+    The purpose of a wireframe is to create a basic structure for each screen in the design before things like branding, colors and images are considered. It provides a way of communicating ideas quickly, which can be refined later. You focus on the user experience and on what they need to accomplish a task.
+
+Usability 
+    Usability testing is the process of getting actual people to use a real website, app or other product you've designed while tracking their actions and reactions.

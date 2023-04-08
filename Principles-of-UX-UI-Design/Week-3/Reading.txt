@@ -18,3 +18,10 @@ No
 
 Correct
 They both help organize your file by nesting or grouping layers together. However, frames supply a lot more functionality like independent sizing.
+
+
+Wireframing
+    The purpose of a wireframe is to create a basic structure for each screen in the design before things like branding, colors and images are considered. It provides a way of communicating ideas quickly, which can be refined later. You focus on the user experience and on what they need to accomplish a task.
+
+Usability 
+    Usability testing is the process of getting actual people to use a real website, app or other product you've designed while tracking their actions and reactions.

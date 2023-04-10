@@ -1,0 +1,63 @@
+Learners will create, share and test their UI design following best practice
+Learning Objectives
+Create a high-fidelity prototype based on a wireframe
+Create high-fidelity user interface elements
+Recognize the importance of design systems
+Apply advanced UI techniques in Figma
+
+
+Make it Beautiful
+    The main elements are 
+    line, 
+    text, 
+    color, 
+    shape, 
+    graphic elements such as icons and images, and 
+    space. 
+
+
+
+The most fundamental elements of design are lines. Lines are used to help communicate to the audience what they should be looking at or pay attention to.
+
+Shapes  
+    Shapes have the ability to draw your attention to a layout. There are three types of shapes. Geometric, organic, and abstract. 
+
+
+Design System 
+    Typgraphy
+    Color
+    Layouts
+    Grids
+    Coding Standards
+    Naming System etc
+
+Atomic Design
+    1. Atoms (Individual Elements i.e., html elements)
+    2. Molecules (Combined Atoms)
+    3. Organisms (Group Molecules)
+
+UI Kit
+    A UI kit is like a design system, but it is limited to the elements and features that populate a User Interface.  
+
+
+Question
+
+A component in Figma contains the following characteristics:  
+
+A master
+
+Correct
+Correct! A component in Figma contains a master.   
+
+
+An instance  
+
+Correct
+Correct! A component in Figma contains an instance.  
+
+
+
+Prototyping
+    A prototype is an almost-working model or mock-up of the product which you use to test it with prospective users and stakeholders.  
+
+

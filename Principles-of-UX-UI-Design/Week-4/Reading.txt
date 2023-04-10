@@ -56,3 +56,8 @@ Correct
 Correct! A component in Figma contains an instance.  
 
 
+
+Prototyping
+    A prototype is an almost-working model or mock-up of the product which you use to test it with prospective users and stakeholders.  
+
+

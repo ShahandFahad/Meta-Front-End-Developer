@@ -30,3 +30,5 @@ By the end, you’ll put your new skills to work by completing a real-world proj
 [ 5: React Basics](https://coursera.org/share/d0a48c327fbdd7ef14d201ca1f264f7c)
 
 [ 6: Advanced React](https://coursera.org/share/7456bfd176e3845bf7df4fb127245c57)
+
+[ 7: Principles of UX/UI Design](https://coursera.org/share/50a884af9a4b370105b3e8ff267af577)

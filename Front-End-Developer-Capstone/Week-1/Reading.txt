@@ -1,0 +1,6 @@
+
+In this module, you’ll get started with the capstone project. This will include a brief recap of, and links to, content in the React course you have already completed.
+Learning Objectives
+Set up a React application
+Commit the project to a Git repository
+Plan the UI/UX

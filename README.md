@@ -32,3 +32,5 @@ By the end, you’ll put your new skills to work by completing a real-world proj
 [ 6: Advanced React](https://coursera.org/share/7456bfd176e3845bf7df4fb127245c57)
 
 [ 7: Principles of UX/UI Design](https://coursera.org/share/50a884af9a4b370105b3e8ff267af577)
+
+[ 8: Front-End Developer Capstone](https://coursera.org/share/1dd5645e0942e78a67535c554b19c5f3)

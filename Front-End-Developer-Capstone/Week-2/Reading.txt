@@ -1,0 +1,15 @@
+In this module, you’ll use semantic HTML, meta tags and Open Graph protocol to create a modern HTML structure for the web app. You will also use CSS grid and other CSS styling to set up a responsive, clear and inviting website.
+Learning Objectives
+Set up a responsive website
+Use React components to create multiple views
+Design and style a responsive UI
+
+
+Question
+
+With HTML 5, you should use the <div> element instead of semantic tags.
+
+False
+
+Correct
+That’s correct. In line with the proper HTML 5 semantics, you should focus instead on using the many semantic HTML 5 tags that are available today, rather than relying on the <div> element.     

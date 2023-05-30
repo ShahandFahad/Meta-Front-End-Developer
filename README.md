@@ -34,3 +34,13 @@ By the end, you’ll put your new skills to work by completing a real-world proj
 [ 7: Principles of UX/UI Design](https://coursera.org/share/50a884af9a4b370105b3e8ff267af577)
 
 [ 8: Front-End Developer Capstone](https://coursera.org/share/1dd5645e0942e78a67535c554b19c5f3)
+
+[ 9: Coding Interview Preparation](https://www.coursera.org/learn/coding-interview-preparation/home/week/1?utm_source=link&utm_medium=certificate&utm_content=cert_image&utm_campaign=sharing_cta)
+
+# Specialization Certificate
+
+[Meta Front-End Developer](https://www.coursera.org/account/accomplishments/professional-cert/M5Q6SJJ6V7MW?utm_source=link&utm_medium=certificate&utm_content=cert_image&utm_campaign=sharing_cta&utm_product=prof)
+
+<img src="./Meta Front-End Developer.PNG"
+     alt="Markdown Monster icon"
+     style="float: left; margin-right: 10px;" />

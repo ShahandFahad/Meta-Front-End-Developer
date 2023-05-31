@@ -1,0 +1,135 @@
+Week-1
+Additional resources
+Here are some additional resources that can help you start preparing for a coding interview:
+
+1. An informative breakdown of various technical questions you may be asked in an interview
+(https://www.indeed.com/career-advice/interviewing/common-technical-interview-questions-and-answers)
+
+2. Helpful information about preparing for an interview
+(https://www.experis.com/en/insights/articles/2021/05/25/20-tips-for-great-job-interviews)
+
+
+Additional resources
+ 
+
+Here are some additional resources that may assist you in preparing for a coding interview:
+
+1. An article on how to write pseudocode and some suggested implementations
+https://www.interviewkickstart.com/learn/how-to-write-pseudocode
+
+2. An article called 10 websites to practice coding problems, that outlines several different sources that will be helpful when you are preparing for a coding interview
+https://www.zdnet.com/education/computers-tech/practice-coding-problems/
+
+
+
+
+Additional resources
+Here are some additional resources for learning more about Big-O Notation:
+
+1. A discussion of time and space costs and plus some helpful examples
+https://www.cs.utexas.edu/users/djimenez/utsa/cs1723/lecture2.html
+
+2. A Scaler Topics article about space complexity
+https://www.scaler.com/topics/data-structures/space-complexity-in-data-structure/
+
+3. Memory can be stored side-by-side or spread out throughout your computer. For some insights on this, you might be interested in reading more about heap versus stack memory
+https://courses.engr.illinois.edu/cs225/fa2022/resources/stack-heap/
+
+
+
+
+
+
+
+
+
+
+-----------------------------------------------------------------------------------------------------
+Week-2
+
+Additional resources
+Here are some additional resources for learning more about basic data structures:
+
+1. This Array basics article provides an excellent write-up on arrays and how they are initialized and used. 
+https://www.cs.fsu.edu/~myers/c++/notes/arrays.html
+
+2. This article called Immutable data structures in F# provides an analysis of mutable versus immutable data structures: 
+https://www.compositional-it.com/news-blog/immutable-data-structures-in-f/
+
+3. This article about First-class objects outlines what a first-class object is 
+https://isaaccomputerscience.org/concepts/prog_func_first_class_objects?examBoard=all&stage=all
+
+
+
+
+
+
+
+
+
+
+Additional resources
+Here are some additional resources for learning more about collection data structures:
+
+1. This article about Understanding Java tree APIs provides some excellent additional insight into different types of trees and the various attributes associated with them.
+https://www.developer.com/design/understanding-java-tree-apis/
+2. This article about Binary trees in C gives a breakdown of how trees are used in C. The focus is on the binary tree and the various types of binary trees and how one would implement them.
+https://data-flair.training/blogs/binary-tree-in-c/
+
+3. This article about C# collections gives an overview things like arraylist, hashtable, lists and so on implemented in C#.
+https://www.tutorialspoint.com/csharp/csharp_collections.htm
+
+4. This article about Trees provides an informative analysis of trees.
+https://isaaccomputerscience.org/concepts/dsa_datastruct_tree?examBoard=all&stage=all
+
+5. This article about Array-based lists gives more information relating to lists that are backed by arrays.
+https://opendatastructures.org/ods-cpp/2_Array_Based_Lists.html
+
+6. This article called What are static and dynamic data structures gives an interesting breakdown and analysis of static and dynamic data structures 
+https://www.scaler.com/topics/static-and-dynamic-data-structure/
+
+
+
+Additional resources
+ Here are some additional resources for learning more about advanced data structures:
+
+1. When discussing hashing the probability of collisions was introduced. Learn more about the statistics behind the birthday paradox.
+https://www.scientificamerican.com/article/bring-science-home-probability-birthday-paradox/
+
+2. An excellent breakdown of graphs with associated terminology;
+https://www.naukri.com/learning/articles/graphs-in-data-structure-types-representation-operations/
+
+3. Information on heaps how to add and remove from them/
+https://www.cs.auckland.ac.nz/software/AlgAnim/heaps.html
+
+
+------------------------------------------------------------------------------------------------------
+Week-3
+
+
+Additional resources
+ Here are some additional resources for learning more about sorting and searching algorithms:
+
+1. Here is an article on Time and space complexity of selection sort. It includes an implementation of selection sort and how one can calculate the complexity involved.
+https://iq.opengenus.org/time-complexity-of-selection-sort/
+
+2. Here is an article about Quick-sort with a video tutorial and pseudocode. It provides a detailed analysis of various sorting algorithms, comparisons and further links to video explanations.
+https://www.commonlounge.com/quick-sort-video-tutorial-pseudo-code-and-in-place-sorting-608c5c7284b148eb9d550e6166303142/
+
+
+
+
+
+Additional resources
+Here are some additional resources for learning more about working with algorithms: 
+
+1. This article provides a comprehensive breakdown of various algorithms that are graph specific. In this article, you will gain both an understanding of the data structure as well as insights into its implementation.
+https://networkx.org/documentation/stable/reference/algorithms/index.html
+
+2. This article discusses space complexity. In it, you will find a comparison between implementing iterative solutions versus recursive ones.
+https://algodaily.com/lessons/understanding-space-complexity
+
+3. This article explains what recursion is and which datatypes are most congenial for its implementation.
+https://web.mit.edu/6.031/www/fa20/classes/16-recursive-data-types/
+
+

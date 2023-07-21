@@ -49,7 +49,7 @@ By the end, you’ll put your new skills to work by completing a real-world proj
 ## Meta Front End Developer Capstone: 
 [LittleLemon Using React](https://github.com/ShahandFahad/Little-Lemon.git)
 
-## Meta Back End Developer Repositry: 
+## Meta Back End Developer: 
 [Meta-Back-End-Developer](https://github.com/ShahandFahad/Meta-Back-End-Developer.git)
 
 ## Meta Back End Developer  Capstone: 
